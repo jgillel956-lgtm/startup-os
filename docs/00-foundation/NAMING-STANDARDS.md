@@ -5,7 +5,7 @@ status: active
 owner: skip
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, naming, conventions]
 dependencies: []
@@ -32,7 +32,9 @@ Consistent names make the repository navigable by pattern, not memory. These rul
 
 ## Prompts
 
-- Lowercase kebab-case: `prompts/summarize-prd.md`, `prompts/generate-user-stories.md`.
+- Reusable prompt templates: **UPPERCASE-KEBAB-CASE** ending in `-PROMPT.md`, prefixed by the target tool: `prompts/CLAUDE-CODE-IMPLEMENTATION-PROMPT.md`.
+- Ad-hoc or task-specific prompts: lowercase kebab-case: `prompts/summarize-prd.md`.
+- The folder overview is `prompts/README.md`.
 
 ## Scripts
 

@@ -5,11 +5,11 @@ status: active
 owner: skip
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001]
 ---
 
 # Startup OS
@@ -80,6 +80,17 @@ Startup OS assumes AI agents are first-class participants in building and operat
 - **Everything is structured.** YAML front matter on every document gives agents machine-readable identity, status, ownership, and relationships.
 - **Everything is traceable.** Stable IDs link requirements to designs to decisions. Agents can follow the chain.
 - **Standards over instructions.** Instead of telling an agent what to do each time, the standards define correct behavior once.
+
+## AI Operating System
+
+The AI layer that governs how agents work here lives in [docs/04-ai/](docs/04-ai/README.md):
+
+- [AI-OPERATING-RULES.md](docs/04-ai/AI-OPERATING-RULES.md) — binding rulebook for all AI agents
+- [AGENT-ROLES.md](docs/04-ai/AGENT-ROLES.md) — what ChatGPT, Claude Code, Cursor, and Codex each do
+- [AI-WORKFLOW.md](docs/04-ai/AI-WORKFLOW.md) — the plan → document → implement → review loop
+- [PROMPTING-STANDARDS.md](docs/04-ai/PROMPTING-STANDARDS.md) — how to write prompts for agents
+- [AI-CODE-REVIEW-CHECKLIST.md](docs/04-ai/AI-CODE-REVIEW-CHECKLIST.md) — reviewing AI-generated code
+- [prompts/](prompts/README.md) — reusable prompt templates
 
 ## Documentation-Before-Development Rule
 

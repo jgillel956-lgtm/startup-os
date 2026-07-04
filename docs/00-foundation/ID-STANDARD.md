@@ -5,7 +5,7 @@ status: active
 owner: skip
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []
@@ -43,6 +43,7 @@ ADRs use the short form `ADR-NNNN` (four digits) to match long-standing industry
 | `SPR` | Sprint document | `SPR-2026-14` |
 | `PAT` | Pattern | `PAT-003` |
 | `KNW` | Knowledge note | `KNW-017` |
+| `PRM` | Reusable AI prompt | `PRM-001` |
 
 ## Scope Codes
 
@@ -64,7 +65,7 @@ Used where a type spans domains (chiefly `DOC` and `TPL`):
 | `PAT` | Patterns |
 | `KNW` | Knowledge |
 
-Instance types with their own sequence (`PRD`, `API`, `DB`, `US`, `ADR`) omit the scope segment.
+Instance types with their own sequence (`PRD`, `API`, `DB`, `US`, `ADR`, `PRM`) omit the scope segment.
 
 ## Rules
 

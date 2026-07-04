@@ -5,11 +5,11 @@ status: active
 owner: skip
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: root
 tags: [ai, agents, context, rules]
 dependencies: [DOC-ROOT-003]
-related: [DOC-ROOT-001, DOC-FND-004, DOC-FND-005]
+related: [DOC-ROOT-001, DOC-FND-004, DOC-FND-005, DOC-AI-001, DOC-AI-002, DOC-AI-004]
 ---
 
 # AI Context
@@ -60,6 +60,19 @@ They are personal projects that will be **built using** Startup OS later, each i
 ### 7. No application source code in this repository
 
 Startup OS holds documentation, templates, prompts, and light automation scripts. Application code lives in implementation repositories.
+
+## AI Agent Workflow
+
+The full workflow and per-tool roles live in [docs/04-ai/](docs/04-ai/README.md). The short version:
+
+- **ChatGPT** plans and reviews (strategy, PRDs, architecture, post-implementation review).
+- **Claude Code** implements — from committed documentation only.
+- **Cursor** is the workspace where humans and agents share the working tree.
+- **Codex** reviews independently when a second opinion is needed.
+- **Git is the source of truth** — chat output becomes real only when committed.
+- **Documentation is updated before or with code changes** — never after, never not.
+
+Binding rules for all agents: [docs/04-ai/AI-OPERATING-RULES.md](docs/04-ai/AI-OPERATING-RULES.md).
 
 ## Working Conventions
 
