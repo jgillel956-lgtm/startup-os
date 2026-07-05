@@ -2,10 +2,10 @@
 id: DOC-FND-006
 title: ID Standard
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.1.1
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []

@@ -2,10 +2,10 @@
 id: TPL-CAP-001
 title: Capability Template
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: templates
 tags: [template, capability, product]
 dependencies: [DOC-FND-004]

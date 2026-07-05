@@ -2,10 +2,10 @@
 id: DOC-ROOT-005
 title: Contributing to Startup OS
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: root
 tags: [contributing, workflow, humans, ai-agents]
 dependencies: [DOC-FND-008]

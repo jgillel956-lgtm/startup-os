@@ -2,10 +2,10 @@
 id: DOC-FND-004
 title: Metadata Standard (YAML Front Matter)
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.1.1
 domain: foundation
 tags: [foundation, metadata, front-matter, yaml]
 dependencies: [DOC-FND-006, DOC-FND-007]
@@ -23,7 +23,7 @@ Every Markdown document in a Startup OS repository begins with a YAML front matt
 id: DOC-FND-004            # Stable unique ID (see ID-STANDARD.md). Never changes.
 title: Metadata Standard   # Human-readable title. May change; id may not.
 status: active             # Lifecycle status (see STATUS-STANDARD.md).
-owner: skip                # Accountable person (short handle). One owner, always.
+owner: Founder             # Accountable person (short handle). One owner, always.
 created: 2026-07-04        # ISO 8601 date the document was created. Never changes.
 updated: 2026-07-04        # ISO 8601 date of last substantive edit.
 version: 1.0.0             # Semantic version of the document.

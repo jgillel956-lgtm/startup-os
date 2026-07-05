@@ -2,10 +2,10 @@
 id: DOC-FND-003
 title: Naming Standards
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.1.1
 domain: foundation
 tags: [foundation, naming, conventions]
 dependencies: []

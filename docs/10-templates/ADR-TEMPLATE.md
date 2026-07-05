@@ -2,10 +2,10 @@
 id: TPL-ADR-001
 title: ADR Template
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: templates
 tags: [template, adr, decisions]
 dependencies: [DOC-FND-004]

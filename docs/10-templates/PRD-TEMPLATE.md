@@ -2,10 +2,10 @@
 id: TPL-PRD-001
 title: PRD Template
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: templates
 tags: [template, prd, requirements, product]
 dependencies: [DOC-FND-004]

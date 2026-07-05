@@ -2,10 +2,10 @@
 id: TPL-SPR-001
 title: Sprint Template
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: templates
 tags: [template, sprint, planning, agile]
 dependencies: [DOC-FND-004]

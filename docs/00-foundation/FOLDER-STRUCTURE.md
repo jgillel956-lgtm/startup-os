@@ -2,10 +2,10 @@
 id: DOC-FND-002
 title: Folder Structure Standard
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: foundation
 tags: [foundation, structure, folders]
 dependencies: [DOC-FND-003]

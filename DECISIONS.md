@@ -2,10 +2,10 @@
 id: DOC-ROOT-004
 title: Decision Log (ADRs)
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: root
 tags: [adr, decisions, governance]
 dependencies: [DOC-ROOT-003]

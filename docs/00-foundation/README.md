@@ -2,10 +2,10 @@
 id: DOC-FND-001
 title: Foundation — Overview
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []

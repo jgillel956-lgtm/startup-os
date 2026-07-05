@@ -2,10 +2,10 @@
 id: DOC-FND-005
 title: Document Standards
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: foundation
 tags: [foundation, writing, documents, standards]
 dependencies: [DOC-FND-004]

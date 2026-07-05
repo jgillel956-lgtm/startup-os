@@ -1,11 +1,11 @@
 ---
 id: DOC-AI-001
 title: AI — Overview
-status: draft
+status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: ai
 tags: [ai, overview, agents, operating-system]
 dependencies: [DOC-ROOT-002]

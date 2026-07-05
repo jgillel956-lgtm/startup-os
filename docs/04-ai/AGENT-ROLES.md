@@ -1,11 +1,11 @@
 ---
 id: DOC-AI-003
 title: Agent Roles
-status: draft
+status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: ai
 tags: [ai, agents, roles, tools]
 dependencies: [DOC-AI-002]

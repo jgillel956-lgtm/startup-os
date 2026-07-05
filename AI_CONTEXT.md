@@ -2,10 +2,10 @@
 id: DOC-ROOT-002
 title: AI Context — Operating Rules for AI Agents
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.1.1
 domain: root
 tags: [ai, agents, context, rules]
 dependencies: [DOC-ROOT-003]

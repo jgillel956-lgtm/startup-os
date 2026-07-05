@@ -2,10 +2,10 @@
 id: DOC-ROOT-003
 title: Startup OS Constitution
 status: active
-owner: skip
+owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: root
 tags: [constitution, principles, governance]
 dependencies: []

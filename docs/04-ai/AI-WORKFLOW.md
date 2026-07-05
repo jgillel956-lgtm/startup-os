@@ -1,11 +1,11 @@
 ---
 id: DOC-AI-004
 title: AI Workflow
-status: draft
+status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.0.1
 domain: ai
 tags: [ai, workflow, process, agents]
 dependencies: [DOC-AI-002, DOC-AI-003]
