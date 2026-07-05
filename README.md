@@ -4,12 +4,12 @@ title: Startup OS
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.4.0
+updated: 2026-07-05
+version: 1.5.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001]
 ---
 
 # Startup OS
@@ -110,6 +110,13 @@ How products, capabilities, requirements, and stories are documented before deve
 - [docs/02-product/PRODUCT-OPERATING-SYSTEM.md](docs/02-product/PRODUCT-OPERATING-SYSTEM.md) — the overall product operating model
 - [docs/02-product/CAPABILITY-MODEL.md](docs/02-product/CAPABILITY-MODEL.md) — what a capability is and how it's structured
 - [docs/02-product/PRD-STANDARD.md](docs/02-product/PRD-STANDARD.md) — how Product Requirements Documents are written
+
+## Engineering Operating System
+
+How approved product work becomes reliable software — technical design, implementation, review, testing, release, observability, and technical debt:
+
+- [docs/03-engineering/README.md](docs/03-engineering/README.md) — overview of the engineering domain
+- [docs/03-engineering/ENGINEERING-OPERATING-SYSTEM.md](docs/03-engineering/ENGINEERING-OPERATING-SYSTEM.md) — principles, responsibilities, cadence
 
 ## GitHub Workflow
 
