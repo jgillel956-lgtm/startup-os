@@ -1,0 +1,10 @@
+{
+  "name": "startup-os",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Startup OS - AI-native framework for building, documenting, and operating software companies.",
+  "scripts": {
+    "validate:frontmatter": "node scripts/validate-front-matter.js",
+    "validate": "npm run validate:frontmatter"
+  }
+}

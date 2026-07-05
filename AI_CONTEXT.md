@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.1
+version: 1.2.0
 domain: root
 tags: [ai, agents, context, rules]
 dependencies: [DOC-ROOT-003]
-related: [DOC-ROOT-001, DOC-FND-004, DOC-FND-005, DOC-AI-001, DOC-AI-002, DOC-AI-004]
+related: [DOC-ROOT-001, DOC-FND-004, DOC-FND-005, DOC-AI-001, DOC-AI-002, DOC-AI-004, DOC-FND-009]
 ---
 
 # AI Context
@@ -60,6 +60,10 @@ They are personal projects that will be **built using** Startup OS later, each i
 ### 7. No application source code in this repository
 
 Startup OS holds documentation, templates, prompts, and light automation scripts. Application code lives in implementation repositories.
+
+### 8. Run validation after touching Markdown
+
+AI agents should run `npm run validate` after creating or updating Markdown documents. See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md).
 
 ## AI Agent Workflow
 

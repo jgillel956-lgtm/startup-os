@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.1
+version: 1.1.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009]
 ---
 
 # Foundation
@@ -27,6 +27,7 @@ The foundation domain defines the standards that govern every document, file, an
 | [ID-STANDARD.md](ID-STANDARD.md) | Stable document identifiers |
 | [STATUS-STANDARD.md](STATUS-STANDARD.md) | Document lifecycle statuses |
 | [GIT-WORKFLOW.md](GIT-WORKFLOW.md) | Branching, commits, and pull requests |
+| [VALIDATION.md](VALIDATION.md) | Automated front matter validation (`npm run validate`) |
 
 ## Reading Order
 

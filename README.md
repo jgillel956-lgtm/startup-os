@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.1
+version: 1.2.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009]
 ---
 
 # Startup OS
@@ -91,6 +91,16 @@ The AI layer that governs how agents work here lives in [docs/04-ai/](docs/04-ai
 - [PROMPTING-STANDARDS.md](docs/04-ai/PROMPTING-STANDARDS.md) — how to write prompts for agents
 - [AI-CODE-REVIEW-CHECKLIST.md](docs/04-ai/AI-CODE-REVIEW-CHECKLIST.md) — reviewing AI-generated code
 - [prompts/](prompts/README.md) — reusable prompt templates
+
+## Validation
+
+Every Markdown document's YAML front matter is checked automatically:
+
+```bash
+npm run validate
+```
+
+See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md) for what it checks and how to fix errors.
 
 ## Documentation-Before-Development Rule
 
