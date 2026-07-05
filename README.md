@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.6.0
+version: 1.7.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001]
 ---
 
 # Startup OS
@@ -124,6 +124,13 @@ How approved, released work gets supported: customer support model, SLAs, triage
 
 - [docs/09-operations/README.md](docs/09-operations/README.md) — overview of the operations & support domain
 - [docs/09-operations/OPERATIONS-OPERATING-SYSTEM.md](docs/09-operations/OPERATIONS-OPERATING-SYSTEM.md) — the overall operating model
+
+## Design Operating System
+
+How product intent becomes a clear, usable customer experience: research, experience mapping, prototypes, the design system, content, accessibility, handoff to engineering, and design QA:
+
+- [docs/05-design/README.md](docs/05-design/README.md) — overview of the design domain
+- [docs/05-design/DESIGN-OPERATING-SYSTEM.md](docs/05-design/DESIGN-OPERATING-SYSTEM.md) — the overall design model
 
 ## GitHub Workflow
 
