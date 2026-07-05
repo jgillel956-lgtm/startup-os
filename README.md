@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.5.0
+version: 1.6.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001]
 ---
 
 # Startup OS
@@ -117,6 +117,13 @@ How approved product work becomes reliable software — technical design, implem
 
 - [docs/03-engineering/README.md](docs/03-engineering/README.md) — overview of the engineering domain
 - [docs/03-engineering/ENGINEERING-OPERATING-SYSTEM.md](docs/03-engineering/ENGINEERING-OPERATING-SYSTEM.md) — principles, responsibilities, cadence
+
+## Operations & Support Operating System
+
+How approved, released work gets supported: customer support model, SLAs, triage, escalation, incident communication, knowledge base, runbooks, and the feedback loop back into product and engineering:
+
+- [docs/09-operations/README.md](docs/09-operations/README.md) — overview of the operations & support domain
+- [docs/09-operations/OPERATIONS-OPERATING-SYSTEM.md](docs/09-operations/OPERATIONS-OPERATING-SYSTEM.md) — the overall operating model
 
 ## GitHub Workflow
 
