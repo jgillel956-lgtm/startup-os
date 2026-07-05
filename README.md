@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.2.0
+version: 1.3.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010]
 ---
 
 # Startup OS
@@ -101,6 +101,13 @@ npm run validate
 ```
 
 See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md) for what it checks and how to fix errors.
+
+## GitHub Workflow
+
+How changes move through issues and pull requests is documented in:
+
+- [docs/00-foundation/GITHUB-WORKFLOW.md](docs/00-foundation/GITHUB-WORKFLOW.md) — issues, PRs, ADRs, and their templates
+- [docs/00-foundation/GIT-WORKFLOW.md](docs/00-foundation/GIT-WORKFLOW.md) — branching, commits, and review
 
 ## Documentation-Before-Development Rule
 

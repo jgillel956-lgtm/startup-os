@@ -5,7 +5,7 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.1
+version: 1.2.0
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []
@@ -64,6 +64,7 @@ Used where a type spans domains (chiefly `DOC` and `TPL`):
 | `OPS` | Operations |
 | `PAT` | Patterns |
 | `KNW` | Knowledge |
+| `GH`  | GitHub process templates (`.github/`) |
 
 Instance types with their own sequence (`PRD`, `API`, `DB`, `US`, `ADR`, `PRM`) omit the scope segment.
 
