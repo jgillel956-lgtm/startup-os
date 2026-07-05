@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.7.0
+version: 1.8.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001]
 ---
 
 # Startup OS
@@ -131,6 +131,13 @@ How product intent becomes a clear, usable customer experience: research, experi
 
 - [docs/05-design/README.md](docs/05-design/README.md) — overview of the design domain
 - [docs/05-design/DESIGN-OPERATING-SYSTEM.md](docs/05-design/DESIGN-OPERATING-SYSTEM.md) — the overall design model
+
+## Marketing Operating System
+
+How the market comes to understand and want the product: positioning, messaging, ICP, brand voice, website strategy, content, campaigns, competitive narrative, and the handoff into sales:
+
+- [docs/06-marketing/README.md](docs/06-marketing/README.md) — overview of the marketing domain
+- [docs/06-marketing/MARKETING-OPERATING-SYSTEM.md](docs/06-marketing/MARKETING-OPERATING-SYSTEM.md) — the overall marketing model
 
 ## GitHub Workflow
 
