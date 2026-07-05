@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.1
+version: 1.1.0
 domain: foundation
 tags: [foundation, git, workflow, branching]
 dependencies: []
-related: [DOC-ROOT-005, DOC-FND-007]
+related: [DOC-ROOT-005, DOC-FND-007, DOC-FND-010, ADR-0006]
 ---
 
 # Git Workflow
@@ -20,6 +20,7 @@ Git is the source of truth (ADR-0002), so Git discipline is documentation discip
 
 - `main` is always coherent: every commit on `main` leaves the repository in a valid, compliant state.
 - **No direct commits to `main`.** All work happens on branches merged via pull request.
+- **Bootstrap exception:** Commits 0001–0004 went directly to `main` because no PR process existed yet; that history remains valid (see ADR-0006 and [GITHUB-WORKFLOW.md](GITHUB-WORKFLOW.md)). Starting with Commit 0005, this no-direct-commits rule applies in full, unless explicitly overridden by the founder. Small emergency fixes may still bypass a branch when clearly justified and documented in the commit message.
 - Branch names: `<type>/<short-kebab-slug>`
 
 | Type | Use |

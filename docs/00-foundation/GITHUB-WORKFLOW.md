@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, github, issues, pull-requests, workflow]
 dependencies: [DOC-FND-008, DOC-FND-009]
-related: [DOC-GH-001, DOC-GH-002, DOC-GH-003, DOC-GH-004, DOC-GH-005, DOC-ROOT-004]
+related: [DOC-GH-001, DOC-GH-002, DOC-GH-003, DOC-GH-004, DOC-GH-005, DOC-ROOT-004, ADR-0006]
 ---
 
 # GitHub Workflow
@@ -59,3 +59,9 @@ Run this before opening any PR that touches a Markdown file. A PR whose front ma
 ## Every Meaningful Change Should Be Reviewable
 
 A change is reviewable when a human who wasn't in the room can look at the issue, the PR, and the diff and understand what happened and why — without replaying a chat session. If a change can't be explained that way, it isn't ready to merge, regardless of how it was produced.
+
+## Bootstrap Exception
+
+Commits 0001 through 0004 were committed directly to `main` because the repository had no pull request process yet — the issue and PR templates this document describes did not exist until Commit 0004. That history remains valid; it is not retroactively non-compliant (see ADR-0006).
+
+Starting with **Commit 0005**, meaningful changes should use feature branches and pull requests per [GIT-WORKFLOW.md](GIT-WORKFLOW.md), unless explicitly overridden by the founder. Small emergency fixes may still be committed directly to `main` when clearly justified — the justification is stated in the commit message, not assumed.

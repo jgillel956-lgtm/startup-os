@@ -5,11 +5,13 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: templates
 tags: [github, issue-template, bug]
 dependencies: [DOC-FND-004, DOC-FND-009]
 related: [DOC-FND-010, DOC-GH-005]
+name: Bug Report
+about: Report a problem with Startup OS documentation, templates, scripts, or framework behavior.
 ---
 
 # Bug Report Issue Template

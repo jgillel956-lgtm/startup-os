@@ -5,11 +5,13 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: templates
 tags: [github, issue-template, documentation]
 dependencies: [DOC-FND-004, DOC-FND-009]
 related: [DOC-FND-010, DOC-GH-005, DOC-FND-005]
+name: Documentation Change
+about: Request a change to Startup OS documentation, standards, templates, or guidance.
 ---
 
 # Documentation Change Issue Template

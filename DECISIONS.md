@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.1
+version: 1.1.0
 domain: root
 tags: [adr, decisions, governance]
 dependencies: [DOC-ROOT-003]
-related: [TPL-ADR-001]
+related: [TPL-ADR-001, DOC-FND-008, DOC-FND-010]
 ---
 
 # Decision Log
@@ -23,6 +23,7 @@ Architecture Decision Records for Startup OS. New decisions follow [docs/10-temp
 | ADR-0003 | Keep Startup OS company-neutral | Accepted | 2026-07-04 |
 | ADR-0004 | Separate personal projects from work projects | Accepted | 2026-07-04 |
 | ADR-0005 | Use documentation before development | Accepted | 2026-07-04 |
+| ADR-0006 | Use feature branches after bootstrap | Accepted | 2026-07-04 |
 
 ---
 
@@ -130,3 +131,24 @@ Documentation precedes development. The required sequence is: capability defined
 - Every implementation has a verifiable spec; disagreement between code and docs is a detectable bug.
 - AI agents can be pointed at documentation and trusted to build the right thing.
 - Upfront writing cost on every feature; the process feels slower at the start and pays back in rework avoided.
+
+---
+
+## ADR-0006: Use feature branches after bootstrap
+
+- **Status:** Accepted
+- **Date:** 2026-07-04
+
+### Context
+
+Startup OS bootstrap commits were made directly to `main` before GitHub issue and pull request templates existed. [GIT-WORKFLOW.md](docs/00-foundation/GIT-WORKFLOW.md) already prohibited direct commits to `main`, but there was no PR process or template to route work through, so Commits 0001–0004 committed directly to `main` by necessity.
+
+### Decision
+
+Starting with Commit 0005, meaningful changes should use feature branches and pull requests unless explicitly overridden by the founder.
+
+### Consequences
+
+- The early bootstrap history (Commits 0001–0004) remains valid; it is not retroactively non-compliant.
+- Future changes become reviewable through the issue and PR templates established in Commit 0004.
+- AI agents should prepare changes in branch-sized increments rather than committing directly to `main`.

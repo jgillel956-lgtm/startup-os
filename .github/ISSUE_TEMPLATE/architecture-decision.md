@@ -5,11 +5,13 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: templates
 tags: [github, issue-template, adr, architecture]
 dependencies: [DOC-FND-004, DOC-FND-009]
 related: [DOC-FND-010, DOC-GH-005, TPL-ADR-001, DOC-ROOT-004]
+name: Architecture Decision
+about: Propose a new Architecture Decision Record for Startup OS.
 ---
 
 # Architecture Decision Issue Template
