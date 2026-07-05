@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.3.0
+version: 1.4.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001]
 ---
 
 # Startup OS
@@ -101,6 +101,15 @@ npm run validate
 ```
 
 See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md) for what it checks and how to fix errors.
+
+## Product Operating System
+
+How products, capabilities, requirements, and stories are documented before development starts:
+
+- [docs/02-product/README.md](docs/02-product/README.md) — overview of the product domain
+- [docs/02-product/PRODUCT-OPERATING-SYSTEM.md](docs/02-product/PRODUCT-OPERATING-SYSTEM.md) — the overall product operating model
+- [docs/02-product/CAPABILITY-MODEL.md](docs/02-product/CAPABILITY-MODEL.md) — what a capability is and how it's structured
+- [docs/02-product/PRD-STANDARD.md](docs/02-product/PRD-STANDARD.md) — how Product Requirements Documents are written
 
 ## GitHub Workflow
 

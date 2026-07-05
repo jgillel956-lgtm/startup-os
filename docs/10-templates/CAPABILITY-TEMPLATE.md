@@ -5,16 +5,20 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.1
+version: 1.1.0
 domain: templates
 tags: [template, capability, product]
-dependencies: [DOC-FND-004]
-related: [TPL-PRD-001, TPL-US-001]
+dependencies: [DOC-FND-004, DOC-PRD-004]
+related: [TPL-PRD-001, TPL-US-001, TPL-CAP-002]
 ---
 
 # Capability Template
 
-Defines a capability: a durable, user-meaningful thing the product can do (e.g. "accept payments", "schedule lessons"). Capabilities sit above PRDs — one capability is delivered through one or more PRDs over time. Copy this file into `docs/02-product/`, rename per naming standards (`CAP-PRD-NNN-<slug>.md`), and replace all `<placeholders>`.
+Defines a capability: a durable, user-meaningful thing the product can do (e.g. "accept payments," "schedule appointments"). Follows [CAPABILITY-MODEL.md](../02-product/CAPABILITY-MODEL.md). Capabilities sit above PRDs — one capability is delivered through one or more PRDs over time.
+
+This single file is the starting point for any capability. If it grows past Level 1 (Defined) and needs business rules, permissions, a data model, workflows, or AI behavior documented in depth, migrate to the full [CAPABILITY-FOLDER-TEMPLATE.md](CAPABILITY-FOLDER-TEMPLATE.md) structure instead of overloading this one file.
+
+Copy this file into `docs/02-product/`, rename per naming standards (`CAP-PRD-NNN-slug.md`), and replace all `<placeholders>`.
 
 ## Front matter for the new document
 
@@ -67,9 +71,13 @@ Measurable statements that define "this capability works":
 1. <criterion — measurable, verifiable>
 2. <criterion>
 
+## Maturity Level
+
+<0 Named / 1 Defined / 2 Specified / 3 Delivered / 4 Mature — see [CAPABILITY-MODEL.md](../02-product/CAPABILITY-MODEL.md).>
+
 ## Dependencies & Constraints
 
-- **Depends on:** <other capabilities, external systems>
+- **Depends on:** <other capability IDs, external systems — hard dependencies should be at least Level 2 (Specified)>
 - **Constraints:** <legal, technical, budget>
 
 ## Delivery Map
@@ -77,6 +85,10 @@ Measurable statements that define "this capability works":
 | PRD | Delivers | Status |
 |-----|----------|--------|
 | PRD-<NNN> | <slice of this capability> | <status> |
+
+## AI Considerations
+
+<Any AI-driven behavior within this capability's scope, and what it must/must not do. State "None" explicitly if not applicable.>
 
 ## Open Questions
 

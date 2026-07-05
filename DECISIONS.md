@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.2.0
 domain: root
 tags: [adr, decisions, governance]
 dependencies: [DOC-ROOT-003]
-related: [TPL-ADR-001, DOC-FND-008, DOC-FND-010]
+related: [TPL-ADR-001, DOC-FND-008, DOC-FND-010, DOC-PRD-004]
 ---
 
 # Decision Log
@@ -24,6 +24,7 @@ Architecture Decision Records for Startup OS. New decisions follow [docs/10-temp
 | ADR-0004 | Separate personal projects from work projects | Accepted | 2026-07-04 |
 | ADR-0005 | Use documentation before development | Accepted | 2026-07-04 |
 | ADR-0006 | Use feature branches after bootstrap | Accepted | 2026-07-04 |
+| ADR-0007 | Use capabilities as the primary product unit | Accepted | 2026-07-04 |
 
 ---
 
@@ -152,3 +153,25 @@ Starting with Commit 0005, meaningful changes should use feature branches and pu
 - The early bootstrap history (Commits 0001–0004) remains valid; it is not retroactively non-compliant.
 - Future changes become reviewable through the issue and PR templates established in Commit 0004.
 - AI agents should prepare changes in branch-sized increments rather than committing directly to `main`.
+
+---
+
+## ADR-0007: Use capabilities as the primary product unit
+
+- **Status:** Accepted
+- **Date:** 2026-07-04
+
+### Context
+
+Startup OS needs a consistent unit of product planning that can connect business problems, product requirements, design, engineering, testing, and AI implementation.
+
+### Decision
+
+Startup OS uses capabilities as the primary product planning unit. A capability may contain multiple features, workflows, screens, APIs, database objects, and AI behaviors.
+
+### Consequences
+
+- Product work is organized around customer/business outcomes instead of isolated features.
+- Each capability can have its own complete documentation folder.
+- AI agents can implement one capability at a time from a clear source of truth.
+- Engineering work becomes easier to scope, review, and test.
