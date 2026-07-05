@@ -5,16 +5,16 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.1
+version: 1.1.0
 domain: templates
 tags: [template, user-story, product, agile]
-dependencies: [DOC-FND-004]
-related: [TPL-PRD-001, TPL-SPR-001]
+dependencies: [DOC-FND-004, DOC-PRD-006]
+related: [TPL-PRD-001, TPL-SPR-001, DOC-PRD-007]
 ---
 
 # User Story Template
 
-One user story: a small, testable slice of user value. Stories belong to a PRD and are scheduled into sprints. Copy into `docs/02-product/` (or embed in a PRD's story table for small stories), rename `US-NNNN-<slug>.md`.
+One user story: a small, testable slice of user value. Follows [USER-STORY-STANDARD.md](../02-product/USER-STORY-STANDARD.md). Stories belong to a PRD and are scheduled into sprints. Copy into `docs/02-product/` (or embed in a PRD's story table for small stories), rename `US-NNNN-<slug>.md`.
 
 ## Front matter for the new document
 
@@ -40,7 +40,9 @@ related: []
 
 ## Story
 
-> As a **<user type>**, I want **<action/capability>** so that **<benefit>**.
+> As a **<actor>**,
+> I want to **<action>**,
+> so that **<outcome>**.
 
 ## Priority & Size
 
@@ -49,14 +51,34 @@ related: []
 
 ## Acceptance Criteria
 
-Every criterion is verifiable; the story is done when all pass.
+Every criterion is verifiable (see [ACCEPTANCE-CRITERIA-STANDARD.md](../02-product/ACCEPTANCE-CRITERIA-STANDARD.md)); the story is done when all pass.
 
 1. GIVEN <precondition> WHEN <action> THEN <observable result>
 2. GIVEN <precondition> WHEN <action> THEN <observable result>
 
+## Negative Cases
+
+- <what happens when the actor can't achieve the goal — invalid input, missing permission, unavailable dependency>
+
 ## Edge Cases
 
-- <empty/error/permission/concurrency case and expected behavior>
+- <empty/boundary/concurrency/duplicate-submission case and expected behavior>
+
+## Permission Considerations
+
+<Who is allowed to perform this action, who is not. Link the capability's PERMISSIONS.md if one exists.>
+
+## Data Considerations
+
+<What data is read/written/exposed, and any sensitivity constraints — e.g. "never log the full value of X.">
+
+## Notification Considerations
+
+<Whether this story triggers a notification, to whom, under what condition — or "None.">
+
+## AI Considerations
+
+<Whether any part of this story involves AI-driven behavior, and what it must not do — or "None.">
 
 ## Out of Scope
 
@@ -66,6 +88,11 @@ Every criterion is verifiable; the story is done when all pass.
 
 - **Blocked by:** <US/API/DB IDs>
 - **Design:** <link to assets, if any>
+
+## Traceability
+
+- **PRD:** <PRD-<NNN>>
+- **Capability:** <CAP-PRD-<NNN>>
 
 ## Notes
 
