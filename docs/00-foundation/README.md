@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.7.0
+version: 1.8.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020, DOC-FND-021, DOC-FND-022, DOC-FND-023, DOC-FND-024, DOC-FND-025, DOC-FND-026, DOC-FND-027]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020, DOC-FND-021, DOC-FND-022, DOC-FND-023, DOC-FND-024, DOC-FND-025, DOC-FND-026, DOC-FND-027, DOC-FND-028, DOC-FND-029, DOC-FND-030, DOC-FND-031]
 ---
 
 # Foundation
@@ -45,6 +45,10 @@ The foundation domain defines the standards that govern every document, file, an
 | [VERSIONING-STANDARD.md](VERSIONING-STANDARD.md) | When and how a document's version should change, with worked examples |
 | [CHANGELOG-STANDARD.md](CHANGELOG-STANDARD.md) | How to summarize a meaningful change in plain language |
 | [RELEASE-NOTES-STANDARD.md](RELEASE-NOTES-STANDARD.md) | How to communicate a larger group of changes at a milestone |
+| [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) | Honest v1 readiness assessment — current verdict: not yet |
+| [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md) | The specific gaps found, with severity and fixes |
+| [STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md](STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md) | What must be true to declare v1 complete |
+| [STARTUP-OS-V1-RELEASE-CHECKLIST.md](STARTUP-OS-V1-RELEASE-CHECKLIST.md) | Final checklist before tagging v1 |
 
 ## Reading Order
 

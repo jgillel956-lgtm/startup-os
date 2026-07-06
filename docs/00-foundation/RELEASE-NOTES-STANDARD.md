@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, release-notes, standard]
 dependencies: [DOC-FND-026]
-related: [DOC-FND-008, DOC-FND-024]
+related: [DOC-FND-008, DOC-FND-024, DOC-FND-031]
 ---
 
 # Release Notes Standard
@@ -48,6 +48,10 @@ Written for someone deciding whether to adopt this milestone — a new company s
 ## Sourcing From Real History
 
 Same discipline as [CHANGELOG-STANDARD.md](CHANGELOG-STANDARD.md): every claim in a release note traces to an actual commit, PR, or ADR — never reconstructed from a plausible guess about what a span of commits probably added up to.
+
+## Before the First Real Release
+
+Before tagging a first `v1.0.0` for Startup OS itself, run [STARTUP-OS-V1-RELEASE-CHECKLIST.md](STARTUP-OS-V1-RELEASE-CHECKLIST.md) — a release note describing a foundation that doesn't actually pass its own release checklist would be exactly the kind of unsupported claim [AI-OPERATING-RULES.md](../04-ai/AI-OPERATING-RULES.md) and this standard's "sourcing from real history" rule both prohibit.
 
 ## Relationship to Tags
 
