@@ -4,8 +4,8 @@ title: Content Marketing
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: marketing
 tags: [marketing, content, standard]
 dependencies: [DOC-MKT-003]
@@ -32,7 +32,7 @@ Every piece has a stated type and purpose before writing starts — content writ
 
 ## Planning
 
-Content is planned against the messaging hierarchy ([POSITIONING-AND-MESSAGING.md](POSITIONING-AND-MESSAGING.md)) and real audience questions — drawn from actual prospect/customer language in support themes ([CUSTOMER-FEEDBACK-LOOP.md](../09-operations/CUSTOMER-FEEDBACK-LOOP.md)) and sales conversations (once [MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)'s feedback channel exists), not guessed from what seems interesting to write.
+Content is planned against the messaging hierarchy ([POSITIONING-AND-MESSAGING.md](POSITIONING-AND-MESSAGING.md)) and real audience questions — drawn from actual prospect/customer language in support themes ([CUSTOMER-FEEDBACK-LOOP.md](../09-operations/CUSTOMER-FEEDBACK-LOOP.md)) and sales conversations ([MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)'s feedback channel), not guessed from what seems interesting to write.
 
 ## Writing
 

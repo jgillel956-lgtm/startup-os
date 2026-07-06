@@ -4,8 +4,8 @@ title: Ideal Customer Profile
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: marketing
 tags: [marketing, icp, personas, standard]
 dependencies: [DOC-MKT-002]
@@ -32,11 +32,11 @@ Each documented profile states: defining characteristics, the specific pain it e
 
 ## Qualification Signals
 
-Observable signals that indicate a prospect matches the ICP — used to focus campaigns and, later, to hand off to sales with useful context (see [MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)). Signals are specific and checkable, not vague ("seems interested" is not a qualification signal; "downloaded the pricing page after reading two technical guides" is).
+Observable signals that indicate a prospect matches the ICP — used to focus campaigns and to hand off to sales with useful context (see [MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)). Signals are specific and checkable, not vague ("seems interested" is not a qualification signal; "downloaded the pricing page after reading two technical guides" is).
 
 ## Disqualification Signals
 
-Equally important: signals that a prospect is *not* a fit — a wrong company size, a use case the product explicitly doesn't serve (see [Non-Goals](../02-product/PRD-STANDARD.md) in the relevant PRDs), or a need the roadmap has no plan to address. Naming disqualification signals prevents wasted effort on both marketing and, later, sales.
+Equally important: signals that a prospect is *not* a fit — a wrong company size, a use case the product explicitly doesn't serve (see [Non-Goals](../02-product/PRD-STANDARD.md) in the relevant PRDs), or a need the roadmap has no plan to address. Naming disqualification signals prevents wasted effort on both marketing and sales.
 
 ## Grounding in Real Evidence
 
@@ -48,7 +48,7 @@ ICPs/personas are revisited when: the product's capabilities materially expand o
 
 ## Ownership
 
-Marketing owner maintains the documented profiles; product confirms they match who capabilities are actually built for; sales (once it exists) validates qualification signals against real conversion outcomes.
+Marketing owner maintains the documented profiles; product confirms they match who capabilities are actually built for; sales validates qualification signals against real conversion outcomes.
 
 ## Anti-Patterns
 

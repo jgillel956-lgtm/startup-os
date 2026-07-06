@@ -4,12 +4,12 @@ title: Engineering — Overview
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: engineering
 tags: [engineering, overview, operating-system]
 dependencies: []
-related: [DOC-ENG-002, DOC-ENG-003, DOC-PRD-002, DOC-PRD-003]
+related: [DOC-ENG-002, DOC-ENG-003, DOC-PRD-002, DOC-PRD-003, DOC-OPS-001, DOC-SEC-001]
 ---
 
 # Engineering — Overview
@@ -22,7 +22,7 @@ The engineering domain defines the **Engineering Operating System**: how a Start
 Business (docs/01-business/)
   → Product (docs/02-product/)        "what to build, and why"
       → Engineering (docs/03-engineering/)   "how it gets built, and how it stays healthy"
-          → Delivery / Support / Security / Growth (future layers)
+          → Operations (docs/09-operations/) / Security & Compliance (docs/14-security-compliance/)
 ```
 
 Engineering work starts once product intent is clear — a capability has reached Specification, ideally with an active PRD (see [PRODUCT-LIFECYCLE.md](../02-product/PRODUCT-LIFECYCLE.md)). From there, engineering owns everything about *how* the work gets built: technical design, implementation, review, testing, release, and the operational health of what's running in production.
@@ -49,7 +49,7 @@ Engineering work starts once product intent is clear — a capability has reache
 - **AI** (`docs/04-ai/`) — AI agents implement from engineering specs the same way they implement from product specs; [AI-OPERATING-RULES.md](../04-ai/AI-OPERATING-RULES.md) and [AI-CODE-REVIEW-CHECKLIST.md](../04-ai/AI-CODE-REVIEW-CHECKLIST.md) apply throughout this domain.
 - **Foundation** (`docs/00-foundation/`) — [GIT-WORKFLOW.md](../00-foundation/GIT-WORKFLOW.md) and [GITHUB-WORKFLOW.md](../00-foundation/GITHUB-WORKFLOW.md) define the general branching/PR mechanics; this domain's [BRANCHING-AND-CODE-REVIEW.md](BRANCHING-AND-CODE-REVIEW.md) specializes them for code changes.
 - **Operations** (`docs/09-operations/`) — what engineering releases, operations supports; [OBSERVABILITY-AND-INCIDENTS.md](OBSERVABILITY-AND-INCIDENTS.md) is the handoff point.
-- **Future layers** (delivery, support, security, growth) — build on the engineering foundation defined here; this domain does not itself define support SLAs or growth experiments.
+- **Security & Compliance** (`docs/14-security-compliance/`) — security principles and requirements constrain technical design and release decisions; this domain does not independently decide what's secure enough to ship.
 
 ## Product Requirements → Design → Implementation → Testing → Release → Operations → Improvement
 

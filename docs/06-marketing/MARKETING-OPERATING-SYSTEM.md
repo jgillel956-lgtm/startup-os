@@ -4,12 +4,12 @@ title: Marketing Operating System
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.1.0
+updated: 2026-07-06
+version: 1.2.0
 domain: marketing
 tags: [marketing, operating-model, standard]
 dependencies: [DOC-MKT-001]
-related: [DOC-PRD-002, DOC-DSG-002, DOC-OPS-002, DOC-BIZ-005]
+related: [DOC-PRD-002, DOC-DSG-002, DOC-OPS-002, DOC-BIZ-005, DOC-SLS-009]
 ---
 
 # Marketing Operating System
@@ -59,7 +59,7 @@ Startup OS does not mandate a specific planning cycle. What's mandated regardles
 
 - **With product** — marketing consumes capability and roadmap documentation ([CAPABILITY-MODEL.md](../02-product/CAPABILITY-MODEL.md), [PRIORITIZATION-STANDARD.md](../02-product/PRIORITIZATION-STANDARD.md)); it does not announce or promise capabilities product hasn't committed to.
 - **With design** — marketing follows the [design system](../05-design/DESIGN-SYSTEM.md) and [brand-adjacent content standards](../05-design/CONTENT-AND-MICROCOPY.md) for anything customer-facing, so product and marketing surfaces feel like one company.
-- **With sales** (future layer) — marketing hands off qualified interest with context ([MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)); once a sales operating system exists, this becomes a two-way relationship.
+- **With sales** — marketing hands off qualified interest with context ([MARKETING-TO-SALES-HANDOFF.md](MARKETING-TO-SALES-HANDOFF.md)); sales feeds real objections and win/loss patterns back per [COMPETITIVE-SALES.md](../07-sales/COMPETITIVE-SALES.md), making it a two-way relationship.
 - **With leadership** — marketing reports performance via [MARKETING-METRICS.md](MARKETING-METRICS.md) and escalates anything with legal, compliance, or reputational exposure through [MARKETING-REVIEW-AND-APPROVAL.md](MARKETING-REVIEW-AND-APPROVAL.md) rather than publishing and hoping.
 
 ## Inputs and Outputs

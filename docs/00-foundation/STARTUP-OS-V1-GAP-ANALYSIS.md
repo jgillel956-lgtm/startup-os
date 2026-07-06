@@ -4,8 +4,8 @@ title: Startup OS v1 Gap Analysis
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: foundation
 tags: [foundation, gap-analysis, v1]
 dependencies: [DOC-FND-028]
@@ -16,15 +16,15 @@ related: [DOC-FND-030, DOC-FND-031]
 
 Remaining gaps, risks, weak areas, missing links, incomplete standards, and cleanup needs found during the [v1 readiness review](STARTUP-OS-V1-READINESS-REVIEW.md). Each item states what was actually checked and what was found — not a generic checklist, the real result of running it against this repository.
 
-## Gap 1 — `docs/09-operations/` Scope Mismatch
+## Gap 1 — `docs/09-operations/` Scope Mismatch (Resolved in Commit 0025)
 
 **What was checked:** [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md)'s stated description of `docs/09-operations/` against its actual file list.
 
-**What was found:** The description reads "Customer support, SLAs, incident communication, runbooks, finance, HR, tooling, internal processes." The actual 12 files ([README.md](../09-operations/README.md) and its table) cover only the customer-support-facing half — support model, triage, SLAs, escalation, incident communication, knowledge base, runbooks, feedback loop, metrics. There is no finance, HR, tooling, or general internal-process standard anywhere in the domain, or anywhere else in the repository.
+**What was found:** The description read "Customer support, SLAs, incident communication, runbooks, finance, HR, tooling, internal processes." The actual 12 files ([README.md](../09-operations/README.md) and its table) cover only the customer-support-facing half — support model, triage, SLAs, escalation, incident communication, knowledge base, runbooks, feedback loop, metrics. There was no finance, HR, tooling, or general internal-process standard anywhere in the domain, or anywhere else in the repository.
 
-**Severity:** Medium — nothing is broken, but the domain's own stated scope oversells what's actually there. A reader trusting the description would expect finance/HR guidance that doesn't exist.
+**Severity:** Was Medium — nothing was broken, but the domain's own stated scope oversold what's actually there.
 
-**Fix:** Either build the missing half as a genuine follow-up commit, or narrow the description in [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md) and [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md) to match what's actually built (customer support & incident operations) and note finance/HR as explicitly out of scope for now.
+**Fix applied:** [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md)'s description narrowed to "Customer support, SLAs, triage, escalation, incident communication, runbooks" — matching [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md)'s row, which already described the domain accurately. Finance, HR, and general tooling/internal-process standards remain out of scope for this domain; if a future commit adds them, it should either extend `docs/09-operations/` deliberately or introduce them elsewhere with their own description.
 
 ## Gap 2 — `CONTRIBUTING.md` Is Stale
 
@@ -84,7 +84,7 @@ Explicitly checked and confirmed **not** a gap: every domain has the file count 
 
 | Gap | Severity | Blocking for v1? |
 |-----|----------|---------------------|
-| `docs/09-operations/` scope mismatch | Medium | Yes — description must match reality |
+| `docs/09-operations/` scope mismatch | Resolved (Commit 0025) | No longer applicable |
 | `CONTRIBUTING.md` stale | Medium | Yes — first-read onboarding doc |
 | GitHub templates don't reference task workflow | Low | No, but recommended |
 | No `LICENSE` file | Low (private repo) | No, needs a decision |

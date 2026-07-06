@@ -4,8 +4,8 @@ title: Folder Structure Standard
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-05
-version: 1.4.0
+updated: 2026-07-06
+version: 1.5.0
 domain: foundation
 tags: [foundation, structure, folders]
 dependencies: [DOC-FND-003]
@@ -50,7 +50,7 @@ Domains are numbered for stable ordering. Numbers never change meaning; new doma
 | `docs/06-marketing/` | Marketing | Positioning, messaging, content, channels |
 | `docs/07-sales/` | Sales | Sales process, pricing, playbooks |
 | `docs/08-investors/` | Investors | Fundraising strategy, updates, data room structure |
-| `docs/09-operations/` | Operations | Customer support, SLAs, incident communication, runbooks, finance, HR, tooling, internal processes |
+| `docs/09-operations/` | Operations | Customer support, SLAs, triage, escalation, incident communication, runbooks |
 | `docs/10-templates/` | Templates | Copy-and-fill document templates |
 | `docs/11-patterns/` | Patterns | Reusable solutions, playbooks, recipes |
 | `docs/12-knowledge/` | Knowledge | Research notes, learnings, external knowledge |

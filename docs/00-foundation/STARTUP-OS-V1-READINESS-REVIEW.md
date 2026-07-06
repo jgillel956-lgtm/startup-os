@@ -4,8 +4,8 @@ title: Startup OS v1 Readiness Review
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: foundation
 tags: [foundation, review, v1, readiness]
 dependencies: [DOC-FND-029, DOC-FND-030]
@@ -28,7 +28,7 @@ Every domain and cross-cutting library: `docs/00-foundation/` through `docs/14-s
 | Automated validation (front matter + links) | ✅ Passing, 0 failures |
 | ID uniqueness | ✅ Verified, no real collisions |
 | Company-neutrality | ✅ No violations found |
-| Every domain's stated scope actually built | ⚠️ One gap (`docs/09-operations/`, see below) |
+| Every domain's stated scope actually built | ✅ Resolved in Commit 0025 (was: `docs/09-operations/` gap, see below) |
 | Onboarding docs reflect current workflow | ❌ `CONTRIBUTING.md` is stale |
 | GitHub templates reflect current workflow | ❌ Never cross-linked to the AI task handoff workflow |
 | Real second-repository adoption test | ❌ Not yet performed |
@@ -46,7 +46,7 @@ Every domain and cross-cutting library: `docs/00-foundation/` through `docs/14-s
 
 See [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md) for the full list with detail. Summary:
 
-1. `docs/09-operations/` only covers customer support — the domain's own description in [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md) ("Finance, HR, tooling, internal processes") is roughly 60% unbuilt.
+1. ~~`docs/09-operations/` only covers customer support — the domain's own description in [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md) ("Finance, HR, tooling, internal processes") is roughly 60% unbuilt.~~ **Resolved in Commit 0025** — the description was narrowed to match actual scope. See the updated Gap 1 entry in [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md). This finding is kept here, struck through, as an honest record of what this review originally found — per this review's own rule below against retroactively rewriting history.
 2. `CONTRIBUTING.md` predates the branch-per-commit policy (ADR-0006) and the AI task handoff workflow (Commit 0011) — it describes a workflow this repository no longer actually follows.
 3. `.github/ISSUE_TEMPLATE/` and `.github/PULL_REQUEST_TEMPLATE/` predate the task handoff workflow and don't reference `tasks/NEXT.md` anywhere.
 4. No `LICENSE` file — not necessarily blocking for a private repository, but undecided rather than deliberately excluded.
@@ -61,16 +61,16 @@ See [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md) for the full 
 
 ## Required Cleanup
 
-See [STARTUP-OS-V1-RELEASE-CHECKLIST.md](STARTUP-OS-V1-RELEASE-CHECKLIST.md) for the actionable checklist. In short: resolve the `docs/09-operations/` scope mismatch (build it out or narrow the description), refresh `CONTRIBUTING.md`, cross-link the GitHub templates, and make a deliberate LICENSE decision.
+See [STARTUP-OS-V1-RELEASE-CHECKLIST.md](STARTUP-OS-V1-RELEASE-CHECKLIST.md) for the actionable checklist. In short: refresh `CONTRIBUTING.md`, cross-link the GitHub templates, and make a deliberate LICENSE decision. (The `docs/09-operations/` scope mismatch listed here at the time of this review was resolved in Commit 0025.)
 
 ## Acceptance Criteria
 
-Full detail in [STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md](STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md). Currently: 5 of 8 criteria met.
+Full detail in [STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md](STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md). At the time of this review: 5 of 8 criteria met. (Commit 0025 resolved one additional criterion — see that document for the current count.)
 
 ## Recommended Next Commits
 
-1. **Commit 0025 — Operations Scope Resolution.** Either build out finance/HR/tooling standards in `docs/09-operations/`, or narrow its stated description to match what's actually there, and update [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md) accordingly.
-2. **Commit 0026 — Onboarding & Template Refresh.** Rewrite `CONTRIBUTING.md` against the actual current workflow; cross-link `.github/` templates to `tasks/NEXT.md`.
+1. ~~**Commit 0025 — Operations Scope Resolution.**~~ Done — the actual Commit 0025 was a broader cleanup and link audit that included narrowing the `docs/09-operations/` description to match reality.
+2. **Onboarding & Template Refresh.** Rewrite `CONTRIBUTING.md` against the actual current workflow; cross-link `.github/` templates to `tasks/NEXT.md`.
 3. **A real second-repository adoption attempt** (even a minimal one) — the single most valuable test of whether this is actually reusable, as opposed to internally consistent.
 
 ## Guidance for Humans and AI Assistants

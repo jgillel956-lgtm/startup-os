@@ -4,8 +4,8 @@ title: Startup OS v1 Acceptance Criteria
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: foundation
 tags: [foundation, acceptance-criteria, v1]
 dependencies: [DOC-FND-028]
@@ -14,7 +14,7 @@ related: [DOC-FND-029, DOC-FND-031]
 
 # Startup OS v1 Acceptance Criteria
 
-Defines what must be true before Startup OS is declared a complete v1 foundation. Checked against the actual current state as of this review — not aspirational, evaluated. **Current result: 5 of 8 met.**
+Defines what must be true before Startup OS is declared a complete v1 foundation. Checked against the actual current state as of this review — not aspirational, evaluated. **Current result: 5 of 8 fully met, 1 partially met, 2 not met** (criterion 5 resolved in Commit 0025; see note below).
 
 ## Criteria
 
@@ -26,7 +26,7 @@ Defines what must be true before Startup OS is declared a complete v1 foundation
 
 4. **No company-specific content in Startup OS itself.** ✅ Met — every commit's own summary confirmed this; this review re-checked and found no violations.
 
-5. **Every domain's stated scope matches what's actually documented.** ❌ Not met — `docs/09-operations/`'s description overstates its actual content (see Gap 1 in [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md)).
+5. **Every domain's stated scope matches what's actually documented.** ✅ Met as of Commit 0025 — `docs/09-operations/`'s description was narrowed to match its actual content (see the updated Gap 1 in [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md)). Not met at the time this review was originally written.
 
 6. **Onboarding documentation reflects the actual current workflow.** ❌ Not met — `CONTRIBUTING.md` predates the branch policy and AI task handoff workflow it should describe (see Gap 2 in [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md)).
 
@@ -42,16 +42,16 @@ Defines what must be true before Startup OS is declared a complete v1 foundation
 | 2 | Automated validation | ✅ |
 | 3 | ID uniqueness | ✅ |
 | 4 | Company neutrality | ✅ |
-| 5 | Scope matches description | ❌ |
+| 5 | Scope matches description | ✅ |
 | 6 | Onboarding currency | ❌ |
 | 7 | GitHub template currency | ⚠️ |
 | 8 | Real adoption test | ❌ |
 
-**5 of 8 fully met, 1 partially met, 2 not met.** Per [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md): not yet v1.
+**5 of 8 fully met, 1 partially met, 2 not met.** Per [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md): not yet v1 — criteria 6 and 8 remain the real blockers.
 
 ## What Would Change This Verdict
 
-Criteria 5 and 6 are both directly actionable in a single focused commit each (see [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md)'s recommended next commits). Criterion 8 requires an actual event — someone starting a real second repository from this foundation — which can't be manufactured by writing more documentation about it.
+Criterion 6 is directly actionable in a single focused commit (see [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md)'s recommended next commits). Criterion 8 requires an actual event — someone starting a real second repository from this foundation — which can't be manufactured by writing more documentation about it.
 
 ## Ownership
 

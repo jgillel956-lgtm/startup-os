@@ -4,12 +4,12 @@ title: Engineering Operating System
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: engineering
 tags: [engineering, operating-model, standard]
 dependencies: [DOC-ENG-001]
-related: [DOC-ENG-003, DOC-ENG-004, DOC-PRD-002, ADR-0005]
+related: [DOC-ENG-003, DOC-ENG-004, DOC-PRD-002, ADR-0005, DOC-OPS-001]
 ---
 
 # Engineering Operating System
@@ -31,7 +31,7 @@ Defines how engineering operates as a system in a Startup OS company: principles
 | Engineering owner (founder, tech lead, or delegate) | Technical direction, architecture decisions, risk sign-off, unblocking |
 | Implementer (human or AI agent) | Building to spec, raising gaps instead of inventing, testing their own work |
 | Reviewer | Verifying correctness, standards compliance, and risk before merge |
-| Operations (once it exists as its own function) | Running what's shipped, first response to incidents |
+| Operations ([docs/09-operations/](../09-operations/README.md)) | Running what's shipped, first response to incidents |
 
 One person can hold multiple roles in an early-stage team; the responsibilities don't disappear because the headcount is one.
 
