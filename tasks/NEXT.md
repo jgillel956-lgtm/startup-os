@@ -1,6 +1,7 @@
 <!--
 This is the active AI task handoff file. Exactly one active task lives here at a time.
 See tasks/README.md and docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md for the full workflow.
+Canonical source for this template: docs/10-templates/AI-TASK-HANDOFF-TEMPLATE.md.
 Replace every section below with the real task before handing this off to a coding agent.
 -->
 
