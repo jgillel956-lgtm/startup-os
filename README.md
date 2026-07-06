@@ -4,8 +4,8 @@ title: Startup OS
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-05
-version: 1.21.0
+updated: 2026-07-06
+version: 1.22.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
@@ -53,7 +53,7 @@ Startup OS now spans sixteen domains. Three documents in `docs/00-foundation/` e
 
 ## Is This a v1 Foundation Yet?
 
-Not yet — see [docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md](docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit against explicit acceptance criteria, the specific gaps found, and what's actually blocking a v1 declaration. The structure below is complete and validated; a handful of onboarding and scope-accuracy gaps remain open.
+Not yet — see [docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md](docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit against explicit acceptance criteria, the specific gaps found, and what's actually blocking a v1 declaration. The structure below is complete and validated; stale onboarding documentation and the lack of a real second-repository adoption test remain open.
 
 ## Repository Structure
 
@@ -74,7 +74,7 @@ startup-os/
 │   ├── 06-marketing/      ← Positioning, content, channels
 │   ├── 07-sales/          ← Sales process, pricing, playbooks
 │   ├── 08-investors/      ← Fundraising, updates, data room structure
-│   ├── 09-operations/     ← Finance, HR, tooling, processes
+│   ├── 09-operations/     ← Customer support, SLAs, triage, escalation, incident communication, runbooks
 │   ├── 10-templates/      ← Copy-and-fill document templates
 │   ├── 11-patterns/       ← Reusable solutions and playbooks
 │   ├── 12-knowledge/      ← Research, learnings, external knowledge

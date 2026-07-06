@@ -4,12 +4,12 @@ title: Startup OS Map
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.1.0
+updated: 2026-07-06
+version: 1.2.0
 domain: foundation
 tags: [foundation, map, navigation, overview]
 dependencies: [DOC-FND-002]
-related: [DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-028]
+related: [DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-028, DOC-FND-029]
 ---
 
 # Startup OS Map
@@ -54,7 +54,7 @@ Domains 00–09 and 13–14 are **operating-system domains** — each owns a sli
 
 ## Is This Map Itself Complete?
 
-Not entirely — see [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit. `docs/09-operations/`'s description above ("Finance, HR, tooling, internal processes") currently overstates what's actually built there; that gap is tracked, not hidden.
+Not entirely — see [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit. As of Commit 0025, this map's own `docs/09-operations/` row and [FOLDER-STRUCTURE.md](FOLDER-STRUCTURE.md)'s matching row both describe the domain accurately (customer support and incident operations only); the remaining open gaps are onboarding-documentation currency and real second-repository adoption — see [STARTUP-OS-V1-GAP-ANALYSIS.md](STARTUP-OS-V1-GAP-ANALYSIS.md).
 
 ## Avoiding Duplication
 

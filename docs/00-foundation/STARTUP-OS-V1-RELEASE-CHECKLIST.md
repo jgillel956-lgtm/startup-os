@@ -4,8 +4,8 @@ title: Startup OS v1 Release Checklist
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: foundation
 tags: [foundation, checklist, v1, release]
 dependencies: [DOC-FND-030]
@@ -24,14 +24,14 @@ A final checklist for validating this repository before tagging or announcing v1
 | 2 | `npm run validate` passes (front matter + links) | ✅ Pass |
 | 3 | Manual ID-uniqueness sweep finds no real collisions | ✅ Pass |
 | 4 | No company-specific content in Startup OS itself | ✅ Pass |
-| 5 | Every domain's `FOLDER-STRUCTURE.md` description matches its actual content | ❌ Fail — `docs/09-operations/` |
+| 5 | Every domain's `FOLDER-STRUCTURE.md` description matches its actual content | ✅ Pass (resolved Commit 0025 — was failing on `docs/09-operations/`) |
 | 6 | `CONTRIBUTING.md` describes the actual current workflow | ❌ Fail |
 | 7 | `.github/` templates reference the AI task handoff workflow where relevant | ❌ Fail |
 | 8 | A `LICENSE` decision has been made (adopted or explicitly deferred) | ❌ Fail — undecided |
 | 9 | [STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md](STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md) shows all criteria met | ❌ Fail — 5 of 8 |
 | 10 | At least one real second repository has adopted this foundation | ❌ Fail — not yet attempted |
 
-**Result: 4 of 10 pass. Do not tag v1 yet.**
+**Result: 5 of 10 pass. Do not tag v1 yet.**
 
 ## Before Re-Running This Checklist
 

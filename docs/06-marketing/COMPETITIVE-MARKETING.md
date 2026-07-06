@@ -4,12 +4,12 @@ title: Competitive Marketing
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: marketing
 tags: [marketing, competitive, differentiation, standard]
 dependencies: [DOC-MKT-003]
-related: [DOC-MKT-007, DOC-MKT-010, DOC-MKT-011]
+related: [DOC-MKT-007, DOC-MKT-010, DOC-MKT-011, DOC-SLS-009]
 ---
 
 # Competitive Marketing
@@ -26,11 +26,11 @@ Differentiation is stated as a specific, defensible difference — a capability,
 
 ## Customer Objections
 
-Real objections heard from prospects and customers (via sales, once it exists, or support in the meantime — see [CUSTOMER-FEEDBACK-LOOP.md](../09-operations/CUSTOMER-FEEDBACK-LOOP.md)) are documented with the actual response the company wants used to address them — not invented in the abstract without ever having been raised.
+Real objections heard from prospects and customers (via sales — see [COMPETITIVE-SALES.md](../07-sales/COMPETITIVE-SALES.md) — or support — see [CUSTOMER-FEEDBACK-LOOP.md](../09-operations/CUSTOMER-FEEDBACK-LOOP.md)) are documented with the actual response the company wants used to address them — not invented in the abstract without ever having been raised.
 
 ## Battlecards
 
-A battlecard is a quick-reference document for a specific competitor: their positioning, their likely strengths, where the company differentiates, and how to respond to common objections about them. Built for whoever needs to respond fast in a real conversation (marketing, and sales once it exists) — dense and current, not a marketing narrative essay.
+A battlecard is a quick-reference document for a specific competitor: their positioning, their likely strengths, where the company differentiates, and how to respond to common objections about them. Built for whoever needs to respond fast in a real conversation (marketing and sales alike) — dense and current, not a marketing narrative essay.
 
 ## Comparison Content
 
@@ -50,7 +50,7 @@ A battlecard per material competitor; comparison content where a genuine head-to
 
 ## Ownership
 
-Marketing owns building and maintaining competitive material; input on real objections and competitor behavior comes from whoever's closest to prospects (support now, sales later); anything published publicly goes through [MARKETING-REVIEW-AND-APPROVAL.md](MARKETING-REVIEW-AND-APPROVAL.md) for fairness and accuracy.
+Marketing owns building and maintaining competitive material; input on real objections and competitor behavior comes from whoever's closest to prospects (sales and support); anything published publicly goes through [MARKETING-REVIEW-AND-APPROVAL.md](MARKETING-REVIEW-AND-APPROVAL.md) for fairness and accuracy.
 
 ## Anti-Patterns
 
