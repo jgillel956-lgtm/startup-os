@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.5.0
+version: 1.6.0
 domain: foundation
 tags: [foundation, metadata, front-matter, yaml]
 dependencies: [DOC-FND-006, DOC-FND-007]
-related: [DOC-FND-005]
+related: [DOC-FND-005, DOC-FND-025]
 ---
 
 # Metadata Standard
@@ -66,7 +66,7 @@ Some files need additional metadata for an external platform — GitHub is the c
 - **MINOR** — additions that do not change existing meaning: new sections, new examples.
 - **PATCH** — clarifications, wording, formatting.
 
-Typo-level edits do not bump `version` or `updated`.
+Typo-level edits do not bump `version` or `updated`. See [VERSIONING-STANDARD.md](VERSIONING-STANDARD.md) for worked examples and how to interpret a version history.
 
 ## Validation
 

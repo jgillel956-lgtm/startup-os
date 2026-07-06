@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, github, issues, pull-requests, workflow]
 dependencies: [DOC-FND-008, DOC-FND-009]
-related: [DOC-GH-001, DOC-GH-002, DOC-GH-003, DOC-GH-004, DOC-GH-005, DOC-ROOT-004, ADR-0006]
+related: [DOC-GH-001, DOC-GH-002, DOC-GH-003, DOC-GH-004, DOC-GH-005, DOC-ROOT-004, ADR-0006, DOC-FND-024]
 ---
 
 # GitHub Workflow
@@ -55,6 +55,10 @@ Run this before opening any PR that touches a Markdown file. A PR whose front ma
 - Never skip the validation checklist item; run `npm run validate` and report the result rather than assuming it passes.
 - Never leave a PR's "Documents Created/Updated" sections vague — list exact paths and IDs, per [PROMPTING-STANDARDS.md](../04-ai/PROMPTING-STANDARDS.md)'s "exact file paths" rule applied in reverse (reporting, not just requesting).
 - If a change surfaces a decision that looks architectural, propose it via the architecture-decision template rather than deciding unilaterally (see [AI-OPERATING-RULES.md](../04-ai/AI-OPERATING-RULES.md)).
+
+## The Full Change Management Picture
+
+This document covers issues, PRs, and templates specifically. For the full picture of how a change type maps to a review gate, a version bump size, and whether it needs an ADR, changelog entry, or release note, see [REPOSITORY-CHANGE-MANAGEMENT.md](REPOSITORY-CHANGE-MANAGEMENT.md).
 
 ## Every Meaningful Change Should Be Reviewable
 

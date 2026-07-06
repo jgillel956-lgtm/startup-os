@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, git, workflow, branching]
 dependencies: []
-related: [DOC-ROOT-005, DOC-FND-007, DOC-FND-010, ADR-0006]
+related: [DOC-ROOT-005, DOC-FND-007, DOC-FND-010, ADR-0006, DOC-FND-024]
 ---
 
 # Git Workflow
@@ -36,7 +36,7 @@ Examples: `docs/api-template-v2`, `adr/0006-hosting-choice`.
 ## Commits
 
 - **Small and coherent**: one logical change per commit.
-- **Message format**: `<type>: <imperative summary>` — e.g. `docs: add database template`, `adr: propose ADR-0006 hosting choice`.
+- **Message format**: `<type>: <imperative summary>` — e.g. `docs: add database template`, `adr: propose ADR-0006 hosting choice`. For anything meaningful enough to warrant one, a [changelog entry](CHANGELOG-STANDARD.md) captures the same change in plain language.
 - Body (when needed) explains *why*, not *what* — the diff shows what.
 - Behavior/documentation coupling: a change that alters behavior includes its documentation update **in the same branch**, ideally the same commit.
 
@@ -55,7 +55,7 @@ Examples: `docs/api-template-v2`, `adr/0006-hosting-choice`.
 
 ## Tags & Releases
 
-- Framework milestones are tagged `vMAJOR.MINOR.PATCH` (e.g. `v1.0.0` for the initial foundation).
+- Framework milestones are tagged `vMAJOR.MINOR.PATCH` (e.g. `v1.0.0` for the initial foundation), accompanied by [release notes](RELEASE-NOTES-STANDARD.md).
 - A tag means: the standards at this point form a coherent, adoptable set.
 
 ## Prohibitions

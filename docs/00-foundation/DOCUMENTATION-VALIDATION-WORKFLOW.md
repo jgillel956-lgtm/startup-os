@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, validation, workflow]
 dependencies: [DOC-FND-009, DOC-FND-018]
-related: [DOC-FND-022, DOC-FND-023]
+related: [DOC-FND-022, DOC-FND-023, DOC-FND-024]
 ---
 
 # Documentation Validation Workflow
@@ -26,6 +26,8 @@ Defines when and how to run documentation validation before a commit or PR — t
 3. Fix anything that failed → VALIDATION-FAILURE-HANDLING.md
 4. Commit / open the PR    → GIT-WORKFLOW.md, GITHUB-WORKFLOW.md
 ```
+
+Where the resulting change fits in the broader change management picture — review gate, version bump, ADR, changelog, release note — is defined in [REPOSITORY-CHANGE-MANAGEMENT.md](REPOSITORY-CHANGE-MANAGEMENT.md).
 
 Automated checks run first because they're fast and catch the mechanical errors (missing front matter fields, broken links) that would otherwise distract from the manual review. The manual checklist runs on documents that already pass automated validation — it's not a substitute for it.
 
