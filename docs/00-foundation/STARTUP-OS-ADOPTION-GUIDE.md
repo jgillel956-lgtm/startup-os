@@ -4,17 +4,17 @@ title: Startup OS Adoption Guide
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.0.0
+updated: 2026-07-06
+version: 1.1.0
 domain: foundation
 tags: [foundation, adoption, guide]
 dependencies: [DOC-FND-013]
-related: [DOC-FND-015, DOC-BIZ-002]
+related: [DOC-FND-015, DOC-BIZ-002, DOC-FND-032]
 ---
 
 # Startup OS Adoption Guide
 
-How a new startup, founder, product team, or AI assistant should adopt Startup OS gradually — without trying to use all sixteen domains at once, which is how a framework this size gets abandoned in week one.
+How a new startup, founder, product team, or AI assistant should adopt Startup OS gradually — without trying to use all sixteen domains at once, which is how a framework this size gets abandoned in week one. For a concrete, step-by-step first pass through the domains relevant right now, see [EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md](EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md) — this guide covers *when* over time; that one covers *how* for the first pass itself.
 
 ## The Core Idea: Adopt in the Order You'll Actually Need It
 

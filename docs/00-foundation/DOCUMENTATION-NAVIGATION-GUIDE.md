@@ -4,12 +4,12 @@ title: Documentation Navigation Guide
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.2.0
+updated: 2026-07-06
+version: 1.3.0
 domain: foundation
 tags: [foundation, navigation, ai, guide]
 dependencies: [DOC-FND-013]
-related: [DOC-FND-014, DOC-AI-002, DOC-FND-018, DOC-FND-028]
+related: [DOC-FND-014, DOC-AI-002, DOC-FND-018, DOC-FND-028, DOC-FND-032]
 ---
 
 # Documentation Navigation Guide
@@ -39,7 +39,8 @@ Where to start, depending on what you're trying to do — for humans and AI assi
 | Understand why something old is the way it is | [docs/99-archive/README.md](../99-archive/README.md) |
 | Hand off a task to a coding agent | [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md) |
 | Understand how a cross-domain workflow moves | [DOMAIN-INTERACTION-MAP.md](DOMAIN-INTERACTION-MAP.md) |
-| Adopt Startup OS for a new company | [STARTUP-OS-ADOPTION-GUIDE.md](STARTUP-OS-ADOPTION-GUIDE.md) |
+| Adopt Startup OS for a new company, gradually over time | [STARTUP-OS-ADOPTION-GUIDE.md](STARTUP-OS-ADOPTION-GUIDE.md) |
+| Walk a brand-new company through Startup OS end-to-end, right now | [EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md](EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md) |
 | Check a document before committing it | [DOCUMENTATION-VALIDATION-CHECKLIST.md](DOCUMENTATION-VALIDATION-CHECKLIST.md) |
 | Cross-link a new document correctly | [CROSS-LINKING-STANDARD.md](CROSS-LINKING-STANDARD.md) |
 | Check whether Startup OS is ready for a v1 release | [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) |
