@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, ai, workflow, handoff]
 dependencies: [DOC-FND-008, DOC-FND-010, DOC-AI-002]
-related: [DOC-FND-012, DOC-AI-004, DOC-TPL-012]
+related: [DOC-FND-012, DOC-AI-004, DOC-TPL-012, DOC-FND-018]
 ---
 
 # AI Task Handoff Workflow
@@ -37,7 +37,7 @@ This workflow is not Claude-only or ChatGPT-only. Any planning assistant and any
 2. **Create a feature branch**, per [GIT-WORKFLOW.md](GIT-WORKFLOW.md)'s naming convention.
 3. **Create or update `tasks/NEXT.md`** with the task to execute — see [`tasks/NEXT.md`](../../tasks/NEXT.md) for the current template and required sections, canonically defined in [AI-TASK-HANDOFF-TEMPLATE.md](../10-templates/AI-TASK-HANDOFF-TEMPLATE.md).
 4. **Tell the coding agent:** `Read tasks/NEXT.md and execute it exactly.`
-5. **The agent validates, commits, and summarizes** — running the repository's validation command, checking links, committing with the exact message the task file specifies, and reporting what it did against what the task file asked for.
+5. **The agent validates, commits, and summarizes** — running the repository's validation command, checking links, committing with the exact message the task file specifies, and reporting what it did against what the task file asked for. [DOCUMENTATION-VALIDATION-CHECKLIST.md](DOCUMENTATION-VALIDATION-CHECKLIST.md) is the concrete checklist behind this step.
 6. **The human pushes the branch, opens a PR, reviews, and merges** — per [GITHUB-WORKFLOW.md](GITHUB-WORKFLOW.md).
 7. **The human updates `main` and starts the next branch** — resetting `tasks/NEXT.md` to the reusable template before the next handoff.
 

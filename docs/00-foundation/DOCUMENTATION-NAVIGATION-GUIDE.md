@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, navigation, ai, guide]
 dependencies: [DOC-FND-013]
-related: [DOC-FND-014, DOC-AI-002]
+related: [DOC-FND-014, DOC-AI-002, DOC-FND-018]
 ---
 
 # Documentation Navigation Guide
@@ -40,6 +40,8 @@ Where to start, depending on what you're trying to do — for humans and AI assi
 | Hand off a task to a coding agent | [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md) |
 | Understand how a cross-domain workflow moves | [DOMAIN-INTERACTION-MAP.md](DOMAIN-INTERACTION-MAP.md) |
 | Adopt Startup OS for a new company | [STARTUP-OS-ADOPTION-GUIDE.md](STARTUP-OS-ADOPTION-GUIDE.md) |
+| Check a document before committing it | [DOCUMENTATION-VALIDATION-CHECKLIST.md](DOCUMENTATION-VALIDATION-CHECKLIST.md) |
+| Cross-link a new document correctly | [CROSS-LINKING-STANDARD.md](CROSS-LINKING-STANDARD.md) |
 
 ## Rules That Apply No Matter Where You Start
 
