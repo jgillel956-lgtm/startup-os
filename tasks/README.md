@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.2.0
+version: 1.3.0
 domain: foundation
 tags: [tasks, handoff, workflow]
 dependencies: [DOC-FND-011]
-related: [DOC-FND-011, DOC-TPL-012, DOC-FND-018]
+related: [DOC-FND-011, DOC-TPL-012, DOC-FND-018, DOC-FND-024]
 ---
 
 # Tasks
@@ -34,6 +34,8 @@ The `tasks/` folder is the repository-based handoff point between a planning AI 
 - How the work should be validated.
 - The exact commit message to use.
 - What the agent's final summary should cover.
+
+Where a specific change type fits in the broader repository change lifecycle — review gate, version bump, ADR, changelog, release note — is defined in [REPOSITORY-CHANGE-MANAGEMENT.md](../docs/00-foundation/REPOSITORY-CHANGE-MANAGEMENT.md).
 
 See [`NEXT.md`](NEXT.md) for the current template with these sections filled in as placeholders — canonically sourced from [AI-TASK-HANDOFF-TEMPLATE.md](../docs/10-templates/AI-TASK-HANDOFF-TEMPLATE.md).
 

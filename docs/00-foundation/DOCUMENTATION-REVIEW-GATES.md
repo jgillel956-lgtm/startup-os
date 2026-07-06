@@ -5,16 +5,16 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, review, standard]
 dependencies: [DOC-FND-017, DOC-FND-018]
-related: [DOC-PAT-006, DOC-FND-008]
+related: [DOC-PAT-006, DOC-FND-008, DOC-FND-024]
 ---
 
 # Documentation Review Gates
 
-Defines lightweight review gates for documentation changes — new docs, domain standards, templates, patterns, archived docs, and AI-generated changes. This is the foundation-level, documentation-specific instance of [REVIEW-GATE-PATTERNS.md](../11-patterns/REVIEW-GATE-PATTERNS.md); read that pattern for the general shape this document applies.
+Defines lightweight review gates for documentation changes — new docs, domain standards, templates, patterns, archived docs, and AI-generated changes. This is the foundation-level, documentation-specific instance of [REVIEW-GATE-PATTERNS.md](../11-patterns/REVIEW-GATE-PATTERNS.md); read that pattern for the general shape this document applies. See [REPOSITORY-CHANGE-MANAGEMENT.md](REPOSITORY-CHANGE-MANAGEMENT.md) for how this gate table fits into the full change lifecycle.
 
 ## Gate by Change Type
 

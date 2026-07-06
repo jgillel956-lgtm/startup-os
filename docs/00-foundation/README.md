@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.6.0
+version: 1.7.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020, DOC-FND-021, DOC-FND-022, DOC-FND-023]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020, DOC-FND-021, DOC-FND-022, DOC-FND-023, DOC-FND-024, DOC-FND-025, DOC-FND-026, DOC-FND-027]
 ---
 
 # Foundation
@@ -41,6 +41,10 @@ The foundation domain defines the standards that govern every document, file, an
 | [DOCUMENTATION-VALIDATION-WORKFLOW.md](DOCUMENTATION-VALIDATION-WORKFLOW.md) | When and how to run validation before a commit or PR |
 | [VALIDATION-RULES.md](VALIDATION-RULES.md) | The full rule catalog — IDs, metadata, folders, links, archive, tasks, claims |
 | [VALIDATION-FAILURE-HANDLING.md](VALIDATION-FAILURE-HANDLING.md) | When to fix, flag, escalate, or stop on a validation failure |
+| [REPOSITORY-CHANGE-MANAGEMENT.md](REPOSITORY-CHANGE-MANAGEMENT.md) | How every change type is proposed, reviewed, approved, and tracked |
+| [VERSIONING-STANDARD.md](VERSIONING-STANDARD.md) | When and how a document's version should change, with worked examples |
+| [CHANGELOG-STANDARD.md](CHANGELOG-STANDARD.md) | How to summarize a meaningful change in plain language |
+| [RELEASE-NOTES-STANDARD.md](RELEASE-NOTES-STANDARD.md) | How to communicate a larger group of changes at a milestone |
 
 ## Reading Order
 
