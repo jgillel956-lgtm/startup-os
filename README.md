@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.15.0
+version: 1.16.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001]
 ---
 
 # Startup OS
@@ -36,8 +36,9 @@ Startup OS exists to:
 
 1. **As a reference** — standards in `docs/00-foundation/` govern how all documents are written, named, identified, and versioned.
 2. **As a source of templates** — documents in [`docs/10-templates/`](docs/10-templates/README.md) are copied into company repositories and filled in.
-3. **As a starting point** — a new company repository begins by adopting the Startup OS structure, then grows its own content inside it.
-4. **As AI context** — `AI_CONTEXT.md` and the foundation documents are loaded by AI coding agents (Claude Code, Cursor, ChatGPT, Codex) so they operate with the same rules humans do.
+3. **As a source of patterns** — reusable operating approaches in [`docs/11-patterns/`](docs/11-patterns/README.md) are adapted, not copied verbatim, when a domain needs a proven shape rather than a mandated rule.
+4. **As a starting point** — a new company repository begins by adopting the Startup OS structure, then grows its own content inside it.
+5. **As AI context** — `AI_CONTEXT.md` and the foundation documents are loaded by AI coding agents (Claude Code, Cursor, ChatGPT, Codex) so they operate with the same rules humans do.
 
 ## Repository Structure
 
