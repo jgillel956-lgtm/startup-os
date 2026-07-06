@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: security-compliance
 tags: [compliance, obligations, standard]
 dependencies: [DOC-SEC-002]
-related: [DOC-SEC-004, DOC-SEC-010]
+related: [DOC-SEC-004, DOC-SEC-010, DOC-INV-009]
 ---
 
 # Compliance Obligations
@@ -43,7 +43,7 @@ Every obligation has a named owner responsible for knowing whether the company s
 
 ## Review
 
-Obligations are reviewed periodically and whenever something material changes (a new regulation, a new customer contract, a new market). A stale obligation list is worse than an honest gap list — it creates false confidence.
+Obligations are reviewed periodically and whenever something material changes (a new regulation, a new customer contract, a new market). A stale obligation list is worse than an honest gap list — it creates false confidence. This register is also what [DUE-DILIGENCE.md](../08-investors/DUE-DILIGENCE.md) draws on when an investor asks about compliance posture — kept current, the answer is already written; kept stale, diligence becomes a scramble.
 
 ## No Unverified Certification Claims
 

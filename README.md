@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.12.0
+version: 1.13.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001]
 ---
 
 # Startup OS
@@ -169,6 +169,13 @@ How security, compliance, access, and trust are handled across the company — w
 
 - [docs/14-security-compliance/README.md](docs/14-security-compliance/README.md) — overview of the security & compliance domain
 - [docs/14-security-compliance/SECURITY-COMPLIANCE-OPERATING-SYSTEM.md](docs/14-security-compliance/SECURITY-COMPLIANCE-OPERATING-SYSTEM.md) — the overall model
+
+## Investor Operating System
+
+How a company prepares to raise, tells its story, organizes diligence, and reports to investors — grounded in evidence from every other domain, never invented independently:
+
+- [docs/08-investors/README.md](docs/08-investors/README.md) — overview of the investors domain
+- [docs/08-investors/INVESTOR-OPERATING-SYSTEM.md](docs/08-investors/INVESTOR-OPERATING-SYSTEM.md) — the overall model
 
 ## AI Task Handoff Workflow
 
