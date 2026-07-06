@@ -5,7 +5,7 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.5.0
+version: 1.6.0
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []
@@ -68,6 +68,7 @@ Used where a type spans domains (chiefly `DOC` and `TPL`):
 | `KNW` | Knowledge |
 | `GH`  | GitHub process templates (`.github/`) |
 | `TPL` | Templates domain governance docs (`docs/10-templates/README.md`, standards) — distinct from the `TPL` *type* code used for individual template instances (`TPL-<subtype>-NNN`) |
+| `ARCH` | Archive & Retention domain governance docs (`docs/99-archive/README.md`, standards) — distinct from a document's `status: archived`, which any document in any domain can carry without changing its `id` |
 
 Instance types with their own sequence (`PRD`, `API`, `DB`, `US`, `ADR`, `PRM`) omit the scope segment.
 
