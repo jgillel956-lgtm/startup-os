@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.5.0
+version: 1.6.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-017, DOC-FND-018, DOC-FND-019, DOC-FND-020, DOC-FND-021, DOC-FND-022, DOC-FND-023]
 ---
 
 # Foundation
@@ -38,6 +38,9 @@ The foundation domain defines the standards that govern every document, file, an
 | [DOCUMENTATION-VALIDATION-CHECKLIST.md](DOCUMENTATION-VALIDATION-CHECKLIST.md) | Pre-commit checklist covering what automated validation can't check |
 | [CROSS-LINKING-STANDARD.md](CROSS-LINKING-STANDARD.md) | How documents link across domains without duplication or stale references |
 | [DOCUMENTATION-REVIEW-GATES.md](DOCUMENTATION-REVIEW-GATES.md) | Which changes need a self-check versus independent review |
+| [DOCUMENTATION-VALIDATION-WORKFLOW.md](DOCUMENTATION-VALIDATION-WORKFLOW.md) | When and how to run validation before a commit or PR |
+| [VALIDATION-RULES.md](VALIDATION-RULES.md) | The full rule catalog — IDs, metadata, folders, links, archive, tasks, claims |
+| [VALIDATION-FAILURE-HANDLING.md](VALIDATION-FAILURE-HANDLING.md) | When to fix, flag, escalate, or stop on a validation failure |
 
 ## Reading Order
 

@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.19.0
+version: 1.20.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021]
 ---
 
 # Startup OS
@@ -109,13 +109,13 @@ The AI layer that governs how agents work here lives in [docs/04-ai/](docs/04-ai
 
 ## Validation
 
-Every Markdown document's YAML front matter is checked automatically:
+Every Markdown document's YAML front matter and every relative link are checked automatically:
 
 ```bash
 npm run validate
 ```
 
-See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md) for what it checks and how to fix errors.
+See [docs/00-foundation/VALIDATION.md](docs/00-foundation/VALIDATION.md) for what it checks and how to fix errors, [DOCUMENTATION-VALIDATION-WORKFLOW.md](docs/00-foundation/DOCUMENTATION-VALIDATION-WORKFLOW.md) for when to run it, and [VALIDATION-FAILURE-HANDLING.md](docs/00-foundation/VALIDATION-FAILURE-HANDLING.md) for what to do when it fails.
 
 ## Product Operating System
 
