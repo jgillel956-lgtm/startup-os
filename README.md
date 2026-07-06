@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-06
-version: 1.23.0
+version: 1.24.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028, DOC-FND-032]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028, DOC-FND-032, DOC-AI-007]
 ---
 
 # Startup OS
@@ -207,6 +207,7 @@ How planning and coding AI agents coordinate through the repository itself, inst
 
 - [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md) — roles, standard workflow, guardrails, troubleshooting
 - [tasks/README.md](tasks/README.md) — what the `tasks/` folder is and how to use `tasks/NEXT.md`
+- [docs/04-ai/AI-USAGE-PLAYBOOKS.md](docs/04-ai/AI-USAGE-PLAYBOOKS.md) — practical playbooks for planning, executing, reviewing, and validating this work with ChatGPT, Claude Code, Cursor, or another AI assistant filling the same role
 
 ## Documentation-Before-Development Rule
 

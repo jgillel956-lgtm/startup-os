@@ -4,17 +4,17 @@ title: Tasks — Overview
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.3.0
+updated: 2026-07-06
+version: 1.4.0
 domain: foundation
 tags: [tasks, handoff, workflow]
 dependencies: [DOC-FND-011]
-related: [DOC-FND-011, DOC-TPL-012, DOC-FND-018, DOC-FND-024]
+related: [DOC-FND-011, DOC-TPL-012, DOC-FND-018, DOC-FND-024, DOC-AI-007]
 ---
 
 # Tasks
 
-The `tasks/` folder is the repository-based handoff point between a planning AI (or human) and an executing coding agent — currently ChatGPT planning and Claude Code executing, though the mechanism is not specific to either tool. Full workflow: [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](../docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md).
+The `tasks/` folder is the repository-based handoff point between a planning AI (or human) and an executing coding agent — currently ChatGPT planning and Claude Code executing, though the mechanism is not specific to either tool. Full workflow: [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](../docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md). Practical guidance on actually using each tool in this handoff: [docs/04-ai/AI-USAGE-PLAYBOOKS.md](../docs/04-ai/AI-USAGE-PLAYBOOKS.md).
 
 ## The Workflow
 
