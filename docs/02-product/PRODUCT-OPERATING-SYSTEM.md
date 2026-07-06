@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: product
 tags: [product, operating-model, standard]
 dependencies: [DOC-ROOT-003, DOC-ROOT-004]
-related: [DOC-PRD-001, DOC-PRD-003, DOC-PRD-004, DOC-PRD-005]
+related: [DOC-PRD-001, DOC-PRD-003, DOC-PRD-004, DOC-PRD-005, DOC-BIZ-003]
 ---
 
 # Product Operating System
@@ -22,6 +22,7 @@ Defines how product work operates in a Startup OS company: the philosophy, decis
 - **Specify before building.** Documentation-before-development (ADR-0005) is not optional for product work — it is the mechanism that makes product work reviewable and AI-implementable.
 - **Small, traceable units.** Capabilities decompose into PRDs, PRDs into stories, stories into acceptance criteria — each link traceable, none skipped.
 - **Company-neutral by default.** Startup OS defines the operating model; each company's actual products, capabilities, and roadmaps live in that company's own repository.
+- **Strategy-grounded.** Product priorities trace to [COMPANY-STRATEGY.md](../01-business/COMPANY-STRATEGY.md)'s strategic themes — a capability that doesn't connect to current strategy is either revealing a strategy gap or shouldn't be a current priority.
 
 ## Documentation-Before-Development Rule
 
