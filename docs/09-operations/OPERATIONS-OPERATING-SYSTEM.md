@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: operations
 tags: [operations, support, operating-model, standard]
 dependencies: [DOC-OPS-001]
-related: [DOC-OPS-003, DOC-OPS-006, DOC-ENG-002, DOC-PRD-002]
+related: [DOC-OPS-003, DOC-OPS-006, DOC-ENG-002, DOC-PRD-002, DOC-BIZ-010]
 ---
 
 # Operations Operating System
@@ -22,6 +22,7 @@ Defines the overall operating model for customer operations: support ownership, 
 2. **Coordinate, don't solve alone.** Support's value is routing the right issue to the right owner fast, not becoming a bottleneck by trying to resolve everything itself.
 3. **Every issue is a data point.** A ticket closed without being categorized and, where relevant, fed back is a lost signal (see [CUSTOMER-FEEDBACK-LOOP.md](CUSTOMER-FEEDBACK-LOOP.md)).
 4. **Lightweight until it needs to not be.** One person can run this whole system informally at first — the discipline (triage, honest communication, feedback capture) matters more than the tooling.
+5. **Operational risk is business risk.** A rising support load or a recurring failure pattern is reported into [BUSINESS-RISKS-AND-ASSUMPTIONS.md](../01-business/BUSINESS-RISKS-AND-ASSUMPTIONS.md), not just absorbed as a support-team problem.
 
 ## Support Ownership
 

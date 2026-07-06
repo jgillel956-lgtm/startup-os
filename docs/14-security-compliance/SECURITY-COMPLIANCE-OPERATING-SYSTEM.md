@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: security-compliance
 tags: [security, compliance, operating-model, standard]
 dependencies: [DOC-SEC-001]
-related: [DOC-ENG-002, DOC-SEC-003, DOC-SEC-007]
+related: [DOC-ENG-002, DOC-SEC-003, DOC-SEC-007, DOC-BIZ-010]
 ---
 
 # Security & Compliance Operating System
@@ -18,7 +18,7 @@ Defines the overall security and compliance model: ownership, principles, operat
 
 ## Principles
 
-Full detail in [SECURITY-PRINCIPLES.md](SECURITY-PRINCIPLES.md); in brief: least privilege, defense in depth, secure defaults, auditability, data minimization, and risk-based decision making — applied proportionally to an early-stage company's actual size and risk, not as enterprise process for its own sake.
+Full detail in [SECURITY-PRINCIPLES.md](SECURITY-PRINCIPLES.md); in brief: least privilege, defense in depth, secure defaults, auditability, data minimization, and risk-based decision making — applied proportionally to an early-stage company's actual size and risk, not as enterprise process for its own sake. Risk-based decisions ultimately feed [BUSINESS-RISKS-AND-ASSUMPTIONS.md](../01-business/BUSINESS-RISKS-AND-ASSUMPTIONS.md) — a security risk leadership has knowingly accepted is a business risk, tracked at that level too.
 
 ## Ownership
 

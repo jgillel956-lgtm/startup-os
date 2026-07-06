@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: sales
 tags: [sales, operating-model, standard]
 dependencies: [DOC-SLS-001]
-related: [DOC-MKT-002, DOC-PRD-002, DOC-OPS-002]
+related: [DOC-MKT-002, DOC-PRD-002, DOC-OPS-002, DOC-BIZ-006]
 ---
 
 # Sales Operating System
@@ -24,6 +24,7 @@ Defines the overall sales model: principles, ownership, planning cadence, opport
 4. **Pipeline hygiene is not optional.** A pipeline nobody trusts (stale stages, inflated forecasts) is worse than a smaller, honest one — see [SALES-PIPELINE.md](SALES-PIPELINE.md).
 5. **Every deal teaches something.** Win or lose, the reason is captured ([COMPETITIVE-SALES.md](COMPETITIVE-SALES.md) win/loss learning) — an unexamined loss repeats.
 6. **Lightweight until it needs to not be.** Early on, sales may be the founder having direct conversations — the discipline (qualification, honest pipeline, documented handoff) matters more than process weight.
+7. **Targets trace to company goals.** Pipeline and revenue targets connect to [GOALS-AND-OKRS.md](../01-business/GOALS-AND-OKRS.md) — a target set without that connection is arbitrary.
 
 ## Ownership
 

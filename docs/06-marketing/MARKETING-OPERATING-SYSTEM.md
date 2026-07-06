@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: marketing
 tags: [marketing, operating-model, standard]
 dependencies: [DOC-MKT-001]
-related: [DOC-PRD-002, DOC-DSG-002, DOC-OPS-002]
+related: [DOC-PRD-002, DOC-DSG-002, DOC-OPS-002, DOC-BIZ-005]
 ---
 
 # Marketing Operating System
@@ -23,6 +23,7 @@ Defines the overall marketing model: principles, ownership, planning cadence, st
 3. **Know who you're for, and who you're not.** A precise ICP ([IDEAL-CUSTOMER-PROFILE.md](IDEAL-CUSTOMER-PROFILE.md)) that excludes some people is more useful than a vague one that includes everyone.
 4. **Consistency compounds.** Brand and voice ([BRAND-AND-VOICE.md](BRAND-AND-VOICE.md)) applied consistently build recognition over time; inconsistency resets that clock every time.
 5. **Lightweight until it needs to not be.** Early on, marketing may be one person writing the website and a handful of posts — the discipline (accurate claims, clear positioning, consistent voice) matters more than channel breadth.
+6. **Grounded in business strategy.** Target markets and segments match [MARKET-AND-CUSTOMER-STRATEGY.md](../01-business/MARKET-AND-CUSTOMER-STRATEGY.md) — marketing doesn't independently choose a different customer to chase.
 
 ## Ownership
 

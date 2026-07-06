@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: customer-success
 tags: [customer-success, operating-model, standard]
 dependencies: [DOC-CS-001]
-related: [DOC-SLS-002, DOC-OPS-002, DOC-PRD-002]
+related: [DOC-SLS-002, DOC-OPS-002, DOC-PRD-002, DOC-BIZ-012]
 ---
 
 # Customer Success Operating System
@@ -24,6 +24,7 @@ Defines the overall customer success model: ownership, principles, collaboration
 4. **Expansion follows proven value, never precedes it.** Growth pushed before outcomes are demonstrated erodes trust (see [EXPANSION-AND-GROWTH.md](EXPANSION-AND-GROWTH.md)).
 5. **Every churn teaches something.** A loss without a documented reason repeats (see [CHURN-AND-SAVE-PLAYS.md](CHURN-AND-SAVE-PLAYS.md)).
 6. **Lightweight until it needs to not be.** Early on, this may be the founder checking in on customers directly — the discipline (tracking health, capturing outcomes, learning from churn) matters more than tooling.
+7. **Retention is a business goal, not a side metric.** Health, renewal, and expansion feed [BUSINESS-METRICS.md](../01-business/BUSINESS-METRICS.md) directly — leadership sees the same retention picture customer success does.
 
 ## Ownership
 

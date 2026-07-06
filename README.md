@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.13.0
+version: 1.14.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001]
 ---
 
 # Startup OS
@@ -176,6 +176,13 @@ How a company prepares to raise, tells its story, organizes diligence, and repor
 
 - [docs/08-investors/README.md](docs/08-investors/README.md) — overview of the investors domain
 - [docs/08-investors/INVESTOR-OPERATING-SYSTEM.md](docs/08-investors/INVESTOR-OPERATING-SYSTEM.md) — the overall model
+
+## Business Operating System
+
+The company-level layer that connects every other domain: strategy, business model, goals, operating cadence, decision-making, ownership, risk, and strategic review:
+
+- [docs/01-business/README.md](docs/01-business/README.md) — overview of the business domain
+- [docs/01-business/BUSINESS-OPERATING-SYSTEM.md](docs/01-business/BUSINESS-OPERATING-SYSTEM.md) — the overall model
 
 ## AI Task Handoff Workflow
 

@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: investors
 tags: [investors, operating-model, standard]
 dependencies: [DOC-INV-001]
-related: [DOC-INV-003, DOC-SLS-002, DOC-SEC-002]
+related: [DOC-INV-003, DOC-SLS-002, DOC-SEC-002, DOC-BIZ-002]
 ---
 
 # Investor Operating System
@@ -23,6 +23,7 @@ Defines the overall investor operating model: ownership, principles, cadence, ar
 3. **Diligence-ready by default.** Materials and the data room are kept current continuously, not assembled in a scramble once a raise starts — see [INVESTOR-DATA-ROOM.md](INVESTOR-DATA-ROOM.md).
 4. **Claims are verified before they're made.** Financial, legal, security, and compliance claims go through the same discipline as [TRUST-COMMUNICATIONS-AND-CLAIMS.md](../14-security-compliance/TRUST-COMMUNICATIONS-AND-CLAIMS.md) — never asserted to make a raise easier.
 5. **Lightweight until it needs to not be.** Pre-seed materials can be a simple deck and a spreadsheet; the discipline (accuracy, consistency, readiness) matters more than production value.
+6. **The raise serves the strategy, not the reverse.** Fundraising decisions ([FUNDRAISING-STRATEGY.md](FUNDRAISING-STRATEGY.md)) trace to [BUSINESS-OPERATING-SYSTEM.md](../01-business/BUSINESS-OPERATING-SYSTEM.md) and [COMPANY-STRATEGY.md](../01-business/COMPANY-STRATEGY.md) — the company doesn't reshape its strategy just to fit what's easiest to pitch.
 
 ## Ownership
 
