@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: sales
 tags: [sales, metrics, standard]
 dependencies: [DOC-SLS-002]
-related: [DOC-SLS-004, DOC-MKT-012, DOC-OPS-012]
+related: [DOC-SLS-004, DOC-MKT-012, DOC-OPS-012, DOC-INV-012]
 ---
 
 # Sales Metrics
@@ -57,6 +57,7 @@ How well [sales-to-customer handoffs](SALES-TO-CUSTOMER-HANDOFF.md) set up onboa
 - Review on a regular rhythm, the same discipline as [MARKETING-METRICS.md](../06-marketing/MARKETING-METRICS.md), [ENGINEERING-METRICS.md](../03-engineering/ENGINEERING-METRICS.md), and [OPERATIONS-METRICS.md](../09-operations/OPERATIONS-METRICS.md).
 - React to trends and stage-specific signals, not a single blended number.
 - Feed findings back into qualification criteria, pricing, messaging (via marketing), and handoff practice — a metric reviewed but never acted on is overhead, not insight.
+- These are the same numbers [INVESTOR-METRICS.md](../08-investors/INVESTOR-METRICS.md) reports as traction — reused directly, not recalculated separately for investor purposes.
 
 ## Right-Sizing for Team Size
 

@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.1.0
+version: 1.2.0
 domain: marketing
 tags: [marketing, review, compliance, standard]
 dependencies: [DOC-MKT-002]
-related: [DOC-MKT-005, DOC-MKT-009, DOC-AI-006, DOC-SEC-010]
+related: [DOC-MKT-005, DOC-MKT-009, DOC-AI-006, DOC-SEC-010, DOC-INV-006]
 ---
 
 # Marketing Review and Approval
@@ -18,7 +18,7 @@ Defines review gates for claims, proof points, compliance-sensitive statements, 
 
 ## What Requires Review
 
-Anything published externally: website copy, landing pages, content, campaign assets, competitive material, and anything containing a claim, a number, a customer reference, a screenshot, a price, or a security/compliance statement.
+Anything published externally: website copy, landing pages, content, campaign assets, competitive material, and anything containing a claim, a number, a customer reference, a screenshot, a price, or a security/compliance statement. Investor-facing materials ([INVESTOR-DECK.md](../08-investors/INVESTOR-DECK.md), [PITCH-NARRATIVE.md](../08-investors/PITCH-NARRATIVE.md)) reuse this same review discipline — an investor is an external audience like any other.
 
 ## Review Checklist
 

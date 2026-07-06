@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: marketing
 tags: [marketing, positioning, messaging, standard]
 dependencies: [DOC-MKT-002]
-related: [DOC-MKT-004, DOC-MKT-009, DOC-PRD-004]
+related: [DOC-MKT-004, DOC-MKT-009, DOC-PRD-004, DOC-INV-005]
 ---
 
 # Positioning and Messaging
@@ -38,7 +38,7 @@ What changes for the customer after adopting the product — stated as a result,
 
 ## Proof Points
 
-Evidence that backs a claimed outcome: a metric, a customer result, a technical fact. Every proof point used publicly is verifiable and currently true — see [MARKETING-REVIEW-AND-APPROVAL.md](MARKETING-REVIEW-AND-APPROVAL.md) for the check that keeps stale or unverifiable proof points out of published material.
+Evidence that backs a claimed outcome: a metric, a customer result, a technical fact. Every proof point used publicly is verifiable and currently true — see [MARKETING-REVIEW-AND-APPROVAL.md](MARKETING-REVIEW-AND-APPROVAL.md) for the check that keeps stale or unverifiable proof points out of published material. These same proof points are what [PITCH-NARRATIVE.md](../08-investors/PITCH-NARRATIVE.md) draws on for investor materials — one verified set of evidence, reused, not a separate stronger version for investors.
 
 ## Messaging Hierarchy
 

@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: customer-success
 tags: [customer-success, metrics, standard]
 dependencies: [DOC-CS-002]
-related: [DOC-SLS-012, DOC-OPS-012]
+related: [DOC-SLS-012, DOC-OPS-012, DOC-INV-012]
 ---
 
 # Customer Success Metrics
@@ -61,6 +61,7 @@ Not a single number — a periodically reviewed list of recurring risk causes ac
 - Review on a regular rhythm, the same discipline as [SALES-METRICS.md](../07-sales/SALES-METRICS.md), [OPERATIONS-METRICS.md](../09-operations/OPERATIONS-METRICS.md), and [MARKETING-METRICS.md](../06-marketing/MARKETING-METRICS.md).
 - React to trends and segment-specific signals, not a single blended number.
 - Feed findings back into onboarding process, health scoring criteria, and the functions named in [CHURN-AND-SAVE-PLAYS.md](CHURN-AND-SAVE-PLAYS.md)'s learning section.
+- Retention and expansion figures here are the same numbers [INVESTOR-METRICS.md](../08-investors/INVESTOR-METRICS.md) reports to investors — reused directly, never a separately-flattering version.
 
 ## Right-Sizing for Team Size
 

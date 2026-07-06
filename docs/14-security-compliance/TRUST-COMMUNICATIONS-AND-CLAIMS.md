@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: security-compliance
 tags: [security, trust, claims, standard]
 dependencies: [DOC-SEC-008]
-related: [DOC-MKT-011, DOC-SLS-007, DOC-SLS-008]
+related: [DOC-MKT-011, DOC-SLS-007, DOC-SLS-008, DOC-INV-006, DOC-INV-009]
 ---
 
 # Trust Communications and Claims
@@ -26,10 +26,11 @@ Defines how public security, compliance, privacy, reliability, certification, an
 - Security architecture claims ("encrypted at rest," "we never store X") — verified against what engineering has actually implemented, not what sounds reassuring.
 - Reliability/uptime claims — verified against actual measured performance ([ENGINEERING-METRICS.md](../03-engineering/ENGINEERING-METRICS.md) reliability), not aspiration.
 - Audit claims ("independently audited," "penetration tested") — only stated if true, current, and the company is permitted to reference it publicly.
+- Investor-facing claims — [INVESTOR-DECK.md](../08-investors/INVESTOR-DECK.md) content and [due diligence](../08-investors/DUE-DILIGENCE.md) answers touching security, compliance, or trust follow this same rule; an investor asking a direct question does not lower the bar for accuracy.
 
 ## Review Process
 
-1. Whoever wants to make the claim (marketing, sales, support) states exactly what they want to say.
+1. Whoever wants to make the claim (marketing, sales, support, or leadership preparing investor materials) states exactly what they want to say.
 2. The security owner confirms whether it's true, currently accurate, and appropriately scoped (a narrow true fact stated as a broad claim is still a false claim).
 3. Approved claims are recorded so they can be reused consistently instead of re-verified from scratch every time.
 4. An unverifiable or false claim is rejected — the requester gets a true, defensible alternative statement instead, not silence.
