@@ -4,12 +4,12 @@ title: AI — Overview
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.0.1
+updated: 2026-07-06
+version: 1.1.0
 domain: ai
 tags: [ai, overview, agents, operating-system]
 dependencies: [DOC-ROOT-002]
-related: [DOC-AI-002, DOC-AI-003, DOC-AI-004, DOC-AI-005, DOC-AI-006]
+related: [DOC-AI-002, DOC-AI-003, DOC-AI-004, DOC-AI-005, DOC-AI-006, DOC-AI-007]
 ---
 
 # AI — Overview
@@ -28,6 +28,12 @@ Startup OS treats AI agents as first-class participants (Constitution, Article I
 | [PROMPTING-STANDARDS.md](PROMPTING-STANDARDS.md) | How humans write prompts for agents |
 | [AI-CODE-REVIEW-CHECKLIST.md](AI-CODE-REVIEW-CHECKLIST.md) | How AI-generated code is reviewed |
 | [`prompts/`](../../prompts/README.md) | Reusable prompt templates |
+| [AI-USAGE-PLAYBOOKS.md](AI-USAGE-PLAYBOOKS.md) | Practical, day-to-day guidance for using AI assistants — the index into the six playbooks below |
+| [CHATGPT-PLANNING-PLAYBOOK.md](CHATGPT-PLANNING-PLAYBOOK.md) | Planning, task design, explanation, PR descriptions, review prep |
+| [CLAUDE-CODE-EXECUTION-PLAYBOOK.md](CLAUDE-CODE-EXECUTION-PLAYBOOK.md) | Reading task files, making changes, validating, committing, summarizing |
+| [CURSOR-WORKFLOW-PLAYBOOK.md](CURSOR-WORKFLOW-PLAYBOOK.md) | The local workspace where humans and agents meet |
+| [AI-REVIEW-AND-VALIDATION-PLAYBOOK.md](AI-REVIEW-AND-VALIDATION-PLAYBOOK.md) | Reviewing docs, checking links/metadata, flagging unsupported claims |
+| [AI-PROMPTING-AND-TASK-DESIGN-PLAYBOOK.md](AI-PROMPTING-AND-TASK-DESIGN-PLAYBOOK.md) | Worked examples for writing good task files and prompts |
 
 ## Supported AI Tools
 

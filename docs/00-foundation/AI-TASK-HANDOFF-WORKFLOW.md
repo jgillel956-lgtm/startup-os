@@ -4,17 +4,17 @@ title: AI Task Handoff Workflow
 status: active
 owner: Founder
 created: 2026-07-05
-updated: 2026-07-05
-version: 1.2.0
+updated: 2026-07-06
+version: 1.3.0
 domain: foundation
 tags: [foundation, ai, workflow, handoff]
 dependencies: [DOC-FND-008, DOC-FND-010, DOC-AI-002]
-related: [DOC-FND-012, DOC-AI-004, DOC-TPL-012, DOC-FND-018]
+related: [DOC-FND-012, DOC-AI-004, DOC-TPL-012, DOC-FND-018, DOC-AI-007]
 ---
 
 # AI Task Handoff Workflow
 
-Defines how a planning assistant and an executing coding agent coordinate through the repository itself, using `tasks/NEXT.md`, instead of the user copying large prompts back and forth between tools. This formalizes the [`tasks/`](../../tasks/README.md) folder introduced alongside this document.
+Defines how a planning assistant and an executing coding agent coordinate through the repository itself, using `tasks/NEXT.md`, instead of the user copying large prompts back and forth between tools. This formalizes the [`tasks/`](../../tasks/README.md) folder introduced alongside this document. For practical, day-to-day guidance on using each tool in this workflow, see [AI-USAGE-PLAYBOOKS.md](../04-ai/AI-USAGE-PLAYBOOKS.md).
 
 ## Why This Exists
 

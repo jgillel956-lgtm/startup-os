@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-06
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, adoption, guide]
 dependencies: [DOC-FND-013]
-related: [DOC-FND-015, DOC-BIZ-002, DOC-FND-032]
+related: [DOC-FND-015, DOC-BIZ-002, DOC-FND-032, DOC-AI-007]
 ---
 
 # Startup OS Adoption Guide
@@ -72,4 +72,4 @@ Add:
 
 ## For AI Assistants Helping With Adoption
 
-When a company asks an AI agent to "set up Startup OS," check which phase actually fits their current stage per this guide — standing up unused domains on request, without checking real need, is exactly the over-adoption this guide exists to prevent. Recommend the matching phase, and let the company ask for more.
+When a company asks an AI agent to "set up Startup OS," check which phase actually fits their current stage per this guide — standing up unused domains on request, without checking real need, is exactly the over-adoption this guide exists to prevent. Recommend the matching phase, and let the company ask for more. For how to actually run that work with ChatGPT, Claude Code, or Cursor once the phase is decided, see [AI-USAGE-PLAYBOOKS.md](../04-ai/AI-USAGE-PLAYBOOKS.md).
