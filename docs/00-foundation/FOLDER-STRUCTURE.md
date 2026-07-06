@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.2.0
+version: 1.3.0
 domain: foundation
 tags: [foundation, structure, folders]
 dependencies: [DOC-FND-003]
-related: [DOC-FND-001, DOC-OPS-001, DOC-FND-011]
+related: [DOC-FND-001, DOC-OPS-001, DOC-FND-011, DOC-CS-001]
 ---
 
 # Folder Structure Standard
@@ -54,6 +54,7 @@ Domains are numbered for stable ordering. Numbers never change meaning; new doma
 | `docs/10-templates/` | Templates | Copy-and-fill document templates |
 | `docs/11-patterns/` | Patterns | Reusable solutions, playbooks, recipes |
 | `docs/12-knowledge/` | Knowledge | Research notes, learnings, external knowledge |
+| `docs/13-customer-success/` | Customer Success | Onboarding, adoption, account health, renewals, expansion, churn prevention |
 | `docs/99-archive/` | Archive | Superseded documents (status `archived`) |
 
 ## Placement Rules

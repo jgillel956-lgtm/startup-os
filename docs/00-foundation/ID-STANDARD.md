@@ -4,8 +4,8 @@ title: ID Standard
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.2.0
+updated: 2026-07-05
+version: 1.3.0
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []
@@ -62,6 +62,7 @@ Used where a type spans domains (chiefly `DOC` and `TPL`):
 | `SLS` | Sales |
 | `INV` | Investors |
 | `OPS` | Operations |
+| `CS`  | Customer Success |
 | `PAT` | Patterns |
 | `KNW` | Knowledge |
 | `GH`  | GitHub process templates (`.github/`) |

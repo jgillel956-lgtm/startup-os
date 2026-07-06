@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.10.0
+version: 1.11.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001]
 ---
 
 # Startup OS
@@ -62,6 +62,7 @@ startup-os/
 │   ├── 10-templates/      ← Copy-and-fill document templates
 │   ├── 11-patterns/       ← Reusable solutions and playbooks
 │   ├── 12-knowledge/      ← Research, learnings, external knowledge
+│   ├── 13-customer-success/ ← Onboarding, adoption, health, renewals, expansion
 │   └── 99-archive/        ← Superseded documents (never deleted)
 ├── prompts/               ← Reusable AI prompts
 ├── templates/             ← Non-document templates (configs, scaffolds)
@@ -153,6 +154,13 @@ How changes move through issues and pull requests is documented in:
 
 - [docs/00-foundation/GITHUB-WORKFLOW.md](docs/00-foundation/GITHUB-WORKFLOW.md) — issues, PRs, ADRs, and their templates
 - [docs/00-foundation/GIT-WORKFLOW.md](docs/00-foundation/GIT-WORKFLOW.md) — branching, commits, and review
+
+## Customer Success Operating System
+
+How a closed deal becomes a healthy, retained, growing account: onboarding, adoption, account health, relationship management, renewals, expansion, customer outcomes, and churn prevention:
+
+- [docs/13-customer-success/README.md](docs/13-customer-success/README.md) — overview of the customer success domain
+- [docs/13-customer-success/CUSTOMER-SUCCESS-OPERATING-SYSTEM.md](docs/13-customer-success/CUSTOMER-SUCCESS-OPERATING-SYSTEM.md) — the overall customer success model
 
 ## AI Task Handoff Workflow
 

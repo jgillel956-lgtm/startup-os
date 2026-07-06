@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: sales
 tags: [sales, handoff, onboarding, standard]
 dependencies: [DOC-SLS-010]
-related: [DOC-OPS-003, DOC-OPS-006, DOC-PRD-001]
+related: [DOC-OPS-003, DOC-OPS-006, DOC-PRD-001, DOC-CS-001, DOC-CS-003, DOC-CS-004]
 ---
 
 # Sales to Customer Handoff
@@ -29,7 +29,8 @@ Defines how closed deals are handed to implementation, onboarding, customer succ
 | Function | Uses handoff for |
 |----------|---------------------|
 | Implementation / onboarding | Setting up the customer against the commitments made |
-| Customer success / support ([CUSTOMER-SUPPORT-MODEL.md](../09-operations/CUSTOMER-SUPPORT-MODEL.md)) | Ongoing relationship, informed by why the customer bought |
+| Customer success ([CUSTOMER-ONBOARDING.md](../13-customer-success/CUSTOMER-ONBOARDING.md), [IMPLEMENTATION-HANDOFF.md](../13-customer-success/IMPLEMENTATION-HANDOFF.md)) | Onboarding plan and ongoing relationship ownership, informed by why the customer bought |
+| Support ([CUSTOMER-SUPPORT-MODEL.md](../09-operations/CUSTOMER-SUPPORT-MODEL.md)) | Day-to-day issue handling, informed by the same context |
 | Operations | Billing/account setup matching the actual agreed terms |
 | Product | Real customer context behind why this deal was won — feeds [PRIORITIZATION-STANDARD.md](../02-product/PRIORITIZATION-STANDARD.md) the same way support themes do |
 | Leadership | Visibility into commitments made that carry business risk if unmet |

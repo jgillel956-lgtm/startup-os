@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-04
-version: 1.0.0
+version: 1.1.0
 domain: product
 tags: [product, lifecycle, standard]
 dependencies: [DOC-PRD-002]
-related: [DOC-PRD-004, DOC-PRD-005, DOC-PRD-009, DOC-FND-007]
+related: [DOC-PRD-004, DOC-PRD-005, DOC-PRD-009, DOC-FND-007, DOC-CS-005]
 ---
 
 # Product Lifecycle
@@ -126,7 +126,7 @@ A capability can only move backward deliberately (e.g. Production → Improvemen
 ## Improvement
 
 - **Purpose:** Refine a live capability based on real usage.
-- **Entry criteria:** A gap, bug, or opportunity is found in production.
+- **Entry criteria:** A gap, bug, or opportunity is found in production — including adoption gaps or customer outcome shortfalls surfaced by customer success (see [ADOPTION-AND-ENGAGEMENT.md](../13-customer-success/ADOPTION-AND-ENGAGEMENT.md)), not just support-reported bugs.
 - **Exit criteria:** The improvement is specified (often re-entering Specification for the affected slice) and shipped.
 - **Required documents:** Updated PRD/stories for the affected slice.
 - **Owner responsibility:** Decide whether the improvement is worth prioritizing (see [PRIORITIZATION-STANDARD.md](PRIORITIZATION-STANDARD.md)).

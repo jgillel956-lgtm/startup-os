@@ -4,8 +4,8 @@ title: Metadata Standard (YAML Front Matter)
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.3.0
+updated: 2026-07-05
+version: 1.4.0
 domain: foundation
 tags: [foundation, metadata, front-matter, yaml]
 dependencies: [DOC-FND-006, DOC-FND-007]
@@ -45,7 +45,7 @@ related: []                # IDs that are relevant but not required.
 | `created` | date | `YYYY-MM-DD`. Set once. |
 | `updated` | date | `YYYY-MM-DD`. Bumped on every substantive edit (not typo fixes). |
 | `version` | semver | `MAJOR.MINOR.PATCH` — see versioning rules below. |
-| `domain` | enum | `root`, `foundation`, `business`, `product`, `engineering`, `ai`, `design`, `marketing`, `sales`, `investors`, `operations`, `templates`, `patterns`, `knowledge`, `archive`. Must match the folder the file lives in (`root` for repository-root files; files under `prompts/` use `ai`, since the AI domain governs them; files under `.github/` use `templates`, since they are GitHub-native process templates). |
+| `domain` | enum | `root`, `foundation`, `business`, `product`, `engineering`, `ai`, `design`, `marketing`, `sales`, `investors`, `operations`, `customer-success`, `templates`, `patterns`, `knowledge`, `archive`. Must match the folder the file lives in (`root` for repository-root files; files under `prompts/` use `ai`, since the AI domain governs them; files under `.github/` use `templates`, since they are GitHub-native process templates). |
 | `tags` | list | 1–8 lowercase kebab-case strings. |
 | `dependencies` | list | Document IDs. If a dependency is archived, this document must be reviewed. |
 | `related` | list | Document IDs. Informational only. |
