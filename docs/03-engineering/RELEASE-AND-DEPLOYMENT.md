@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: engineering
 tags: [engineering, release, deployment, standard]
 dependencies: [DOC-ENG-003, DOC-ENG-008]
-related: [DOC-ENG-010, DOC-ENG-006]
+related: [DOC-ENG-010, DOC-ENG-006, DOC-SEC-007]
 ---
 
 # Release and Deployment
@@ -19,7 +19,7 @@ Defines how releases are planned, validated, deployed, rolled back, and communic
 ## Planning a Release
 
 - A release bundles work that's ready together — it does not wait on unrelated in-progress work "to save a deploy."
-- Higher-risk changes (data migrations, payment logic, anything touching money or personal data) are called out explicitly in the release plan, not bundled invisibly with routine changes.
+- Higher-risk changes (data migrations, payment logic, anything touching money or personal data) are called out explicitly in the release plan, not bundled invisibly with routine changes — and checked against [SECURITY-REVIEWS.md](../14-security-compliance/SECURITY-REVIEWS.md)'s triggers before release.
 
 ## Validation Before Release
 

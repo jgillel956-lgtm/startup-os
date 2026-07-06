@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.11.0
+version: 1.12.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001]
 ---
 
 # Startup OS
@@ -63,6 +63,7 @@ startup-os/
 │   ├── 11-patterns/       ← Reusable solutions and playbooks
 │   ├── 12-knowledge/      ← Research, learnings, external knowledge
 │   ├── 13-customer-success/ ← Onboarding, adoption, health, renewals, expansion
+│   ├── 14-security-compliance/ ← Security principles, access control, compliance, trust claims
 │   └── 99-archive/        ← Superseded documents (never deleted)
 ├── prompts/               ← Reusable AI prompts
 ├── templates/             ← Non-document templates (configs, scaffolds)
@@ -161,6 +162,13 @@ How a closed deal becomes a healthy, retained, growing account: onboarding, adop
 
 - [docs/13-customer-success/README.md](docs/13-customer-success/README.md) — overview of the customer success domain
 - [docs/13-customer-success/CUSTOMER-SUCCESS-OPERATING-SYSTEM.md](docs/13-customer-success/CUSTOMER-SUCCESS-OPERATING-SYSTEM.md) — the overall customer success model
+
+## Security & Compliance Operating System
+
+How security, compliance, access, and trust are handled across the company — with explicit per-function ownership and a hard rule against unverified public claims:
+
+- [docs/14-security-compliance/README.md](docs/14-security-compliance/README.md) — overview of the security & compliance domain
+- [docs/14-security-compliance/SECURITY-COMPLIANCE-OPERATING-SYSTEM.md](docs/14-security-compliance/SECURITY-COMPLIANCE-OPERATING-SYSTEM.md) — the overall model
 
 ## AI Task Handoff Workflow
 

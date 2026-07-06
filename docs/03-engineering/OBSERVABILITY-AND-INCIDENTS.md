@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: engineering
 tags: [engineering, observability, incidents, standard]
 dependencies: [DOC-ENG-009]
-related: [DOC-ENG-011, DOC-ENG-012]
+related: [DOC-ENG-011, DOC-ENG-012, DOC-SEC-011]
 ---
 
 # Observability and Incidents
@@ -32,6 +32,8 @@ Defines logging, monitoring, alerting, incident response, severity levels, postm
 - Alerts route to whoever can actually act on them, with enough context to start diagnosing without reverse-engineering the alert itself.
 
 ## Incident Response
+
+A suspected security incident (unauthorized access, data exposure, a breach) follows [SECURITY-INCIDENT-RESPONSE.md](../14-security-compliance/SECURITY-INCIDENT-RESPONSE.md) in addition to this process — the two run together, not as alternatives.
 
 - **Declare early.** Uncertainty about whether something is "really" an incident is resolved by declaring it and downgrading later — not by waiting for certainty while impact continues.
 - **One person coordinates.** During an active incident, one person is explicitly responsible for coordinating response, even if others are doing the technical work.

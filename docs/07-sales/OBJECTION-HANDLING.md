@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: sales
 tags: [sales, objections, standard]
 dependencies: [DOC-SLS-007]
-related: [DOC-SLS-009, DOC-MKT-011]
+related: [DOC-SLS-009, DOC-MKT-011, DOC-SEC-010]
 ---
 
 # Objection Handling
@@ -32,7 +32,7 @@ Defines how sales documents, responds to, escalates, and learns from common obje
 
 - **Listen for the real concern first** — a stated objection is sometimes a proxy for a different underlying concern; responding to the surface objection without understanding the real one rarely lands.
 - **Respond with substance, not deflection** — a price objection addressed by restating value (tied to the business impact from [discovery](DISCOVERY-AND-NEEDS-ASSESSMENT.md)) is stronger than simply discounting.
-- **Trust and risk objections** get factual, verifiable answers — security/reliability claims are only ever what's actually true (see [MARKETING-REVIEW-AND-APPROVAL.md](../06-marketing/MARKETING-REVIEW-AND-APPROVAL.md)'s same discipline applied here) — never softened or exaggerated to close faster.
+- **Trust and risk objections** get factual, verifiable answers — security/reliability claims are only ever what's actually true, per [TRUST-COMMUNICATIONS-AND-CLAIMS.md](../14-security-compliance/TRUST-COMMUNICATIONS-AND-CLAIMS.md) (the same discipline [MARKETING-REVIEW-AND-APPROVAL.md](../06-marketing/MARKETING-REVIEW-AND-APPROVAL.md) applies) — never softened or exaggerated to close faster.
 - **Competitive objections** are addressed with differentiation, not disparagement (see [COMPETITIVE-SALES.md](COMPETITIVE-SALES.md)).
 
 ## Escalating Objections

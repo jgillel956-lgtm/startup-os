@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: marketing
 tags: [marketing, review, compliance, standard]
 dependencies: [DOC-MKT-002]
-related: [DOC-MKT-005, DOC-MKT-009, DOC-AI-006]
+related: [DOC-MKT-005, DOC-MKT-009, DOC-AI-006, DOC-SEC-010]
 ---
 
 # Marketing Review and Approval
@@ -24,7 +24,7 @@ Anything published externally: website copy, landing pages, content, campaign as
 
 - [ ] **Claims** trace to a documented capability or verified fact ([POSITIONING-AND-MESSAGING.md](POSITIONING-AND-MESSAGING.md) proof points) — nothing is asserted that isn't currently true.
 - [ ] **Proof points** are current — no stale metric, outdated customer result, or superseded fact.
-- [ ] **Compliance-sensitive statements** (data handling, security, regulatory claims) are confirmed with whoever has the authority to make them — marketing does not independently assert a compliance status.
+- [ ] **Compliance-sensitive statements** (data handling, security, regulatory claims) are confirmed with whoever has the authority to make them — marketing does not independently assert a compliance status. See [TRUST-COMMUNICATIONS-AND-CLAIMS.md](../14-security-compliance/TRUST-COMMUNICATIONS-AND-CLAIMS.md) for the binding rule this checklist item enforces.
 - [ ] **Customer references** (logos, quotes, case studies) have actual, current permission to use.
 - [ ] **Screenshots** reflect the current, real product — not a mockup, a deprecated version, or placeholder/fake data (see [AI-OPERATING-RULES.md](../04-ai/AI-OPERATING-RULES.md) on never presenting fabricated content as real).
 - [ ] **Pricing** matches what's actually currently offered.

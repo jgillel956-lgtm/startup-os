@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: operations
 tags: [operations, incidents, communication, standard]
 dependencies: [DOC-OPS-006, DOC-ENG-010]
-related: [DOC-OPS-008, DOC-ENG-009]
+related: [DOC-OPS-008, DOC-ENG-009, DOC-SEC-011]
 ---
 
 # Incident Communication
@@ -22,6 +22,8 @@ Defines how customer-facing incidents are communicated before, during, and after
 - Planned, high-risk releases (per [RELEASE-AND-DEPLOYMENT.md](../03-engineering/RELEASE-AND-DEPLOYMENT.md)) are flagged to support in advance where feasible, so support isn't blindsided by a ticket spike it wasn't warned about.
 
 ## During an Incident
+
+If the incident is or may be a security incident (suspected unauthorized access, data exposure), [SECURITY-INCIDENT-RESPONSE.md](../14-security-compliance/SECURITY-INCIDENT-RESPONSE.md) governs the technical response and what's confirmed to communicate — this document governs the delivery of that communication, not the underlying facts.
 
 - **Acknowledge fast.** Customers affected by a SEV1/SEV2 (per [SLA-AND-RESPONSE-STANDARDS.md](SLA-AND-RESPONSE-STANDARDS.md)) get told something is wrong before they have to ask, wherever that's feasible (status page, proactive message, in-app notice).
 - **Say what's known, not what's guessed.** State confirmed impact and confirmed next steps; do not speculate about cause or timeline beyond what engineering has actually confirmed (see [CUSTOMER-COMMUNICATION-STANDARDS.md](CUSTOMER-COMMUNICATION-STANDARDS.md) on communicating uncertainty).
