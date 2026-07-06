@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [tasks, handoff, workflow]
 dependencies: [DOC-FND-011]
-related: [DOC-FND-011]
+related: [DOC-FND-011, DOC-TPL-012]
 ---
 
 # Tasks
@@ -35,7 +35,7 @@ The `tasks/` folder is the repository-based handoff point between a planning AI 
 - The exact commit message to use.
 - What the agent's final summary should cover.
 
-See [`NEXT.md`](NEXT.md) for the current template with these sections filled in as placeholders.
+See [`NEXT.md`](NEXT.md) for the current template with these sections filled in as placeholders — canonically sourced from [AI-TASK-HANDOFF-TEMPLATE.md](../docs/10-templates/AI-TASK-HANDOFF-TEMPLATE.md).
 
 ## What Should Not Go in a Task File
 
@@ -46,7 +46,7 @@ See [`NEXT.md`](NEXT.md) for the current template with these sections filled in 
 
 ## One Active Task at a Time
 
-`tasks/NEXT.md` holds exactly one active task. Starting a new task before the current one is committed and cleared risks the executing agent mixing work from two unrelated efforts into one branch. Finish, commit, and reset `NEXT.md` before handing off the next one.
+`tasks/NEXT.md` holds exactly one active task. Starting a new task before the current one is committed and cleared risks the executing agent mixing work from two unrelated efforts into one branch. Finish, commit, and reset `NEXT.md` to [AI-TASK-HANDOFF-TEMPLATE.md](../docs/10-templates/AI-TASK-HANDOFF-TEMPLATE.md)'s content before handing off the next one.
 
 ## Validation
 
