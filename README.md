@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.8.0
+version: 1.9.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001]
 ---
 
 # Startup OS
@@ -138,6 +138,13 @@ How the market comes to understand and want the product: positioning, messaging,
 
 - [docs/06-marketing/README.md](docs/06-marketing/README.md) — overview of the marketing domain
 - [docs/06-marketing/MARKETING-OPERATING-SYSTEM.md](docs/06-marketing/MARKETING-OPERATING-SYSTEM.md) — the overall marketing model
+
+## Sales Operating System
+
+How qualified interest becomes closed, well-handed-off revenue: qualification, pipeline discipline, discovery, demos, proposals and pricing, objection handling, competitive selling, contracting, and customer handoff:
+
+- [docs/07-sales/README.md](docs/07-sales/README.md) — overview of the sales domain
+- [docs/07-sales/SALES-OPERATING-SYSTEM.md](docs/07-sales/SALES-OPERATING-SYSTEM.md) — the overall sales model
 
 ## GitHub Workflow
 
