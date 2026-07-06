@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.18.0
+version: 1.19.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013]
 ---
 
 # Startup OS
@@ -41,6 +41,15 @@ Startup OS exists to:
 5. **As a historical record** — superseded and retired material in [`docs/99-archive/`](docs/99-archive/README.md) is preserved and clearly marked, never deleted and never mistaken for current guidance.
 6. **As a starting point** — a new company repository begins by adopting the Startup OS structure, then grows its own content inside it.
 7. **As AI context** — `AI_CONTEXT.md` and the foundation documents are loaded by AI coding agents (Claude Code, Cursor, ChatGPT, Codex) so they operate with the same rules humans do.
+
+## Finding Your Way Around
+
+Startup OS now spans sixteen domains. Three documents in `docs/00-foundation/` exist specifically to keep that navigable instead of overwhelming:
+
+- [STARTUP-OS-MAP.md](docs/00-foundation/STARTUP-OS-MAP.md) — what every domain owns, and when to reach for each folder
+- [DOMAIN-INTERACTION-MAP.md](docs/00-foundation/DOMAIN-INTERACTION-MAP.md) — how domains connect across real workflows (idea to product, close to onboarding, incident to communication, and more)
+- [DOCUMENTATION-NAVIGATION-GUIDE.md](docs/00-foundation/DOCUMENTATION-NAVIGATION-GUIDE.md) — where to start for a specific task, human or AI
+- [STARTUP-OS-ADOPTION-GUIDE.md](docs/00-foundation/STARTUP-OS-ADOPTION-GUIDE.md) — how to adopt this incrementally instead of standing up all sixteen domains at once
 
 ## Repository Structure
 

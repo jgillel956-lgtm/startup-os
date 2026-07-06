@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.3.0
+version: 1.4.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011, DOC-FND-013, DOC-FND-014, DOC-FND-015, DOC-FND-016]
 ---
 
 # Foundation
@@ -30,13 +30,17 @@ The foundation domain defines the standards that govern every document, file, an
 | [VALIDATION.md](VALIDATION.md) | Automated front matter validation (`npm run validate`) |
 | [GITHUB-WORKFLOW.md](GITHUB-WORKFLOW.md) | GitHub issues, pull requests, and their templates |
 | [AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md) | Repository-based task handoff between planning and coding AI agents |
+| [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md) | What every domain owns, and when to use each folder |
+| [DOMAIN-INTERACTION-MAP.md](DOMAIN-INTERACTION-MAP.md) | How domains connect across real cross-domain workflows |
+| [DOCUMENTATION-NAVIGATION-GUIDE.md](DOCUMENTATION-NAVIGATION-GUIDE.md) | Where to start for a specific task, human or AI |
+| [STARTUP-OS-ADOPTION-GUIDE.md](STARTUP-OS-ADOPTION-GUIDE.md) | How to adopt Startup OS gradually, by company stage |
 
 ## Reading Order
 
 New contributors (human or AI) read in this order:
 
 1. Repository root: `README.md`, `AI_CONTEXT.md`, `CONSTITUTION.md`
-2. This folder, top to bottom as listed above
+2. This folder, top to bottom as listed above — or jump straight to [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md) and [DOCUMENTATION-NAVIGATION-GUIDE.md](DOCUMENTATION-NAVIGATION-GUIDE.md) for a faster orientation
 3. The templates in `docs/10-templates/` relevant to the task at hand
 
 ## Changing a Standard
