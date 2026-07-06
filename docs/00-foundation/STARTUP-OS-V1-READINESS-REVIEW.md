@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-06
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, review, v1, readiness]
 dependencies: [DOC-FND-029, DOC-FND-030]
-related: [DOC-FND-031, DOC-FND-013]
+related: [DOC-FND-031, DOC-FND-013, DOC-FND-039]
 ---
 
 # Startup OS v1 Readiness Review
@@ -72,6 +72,8 @@ Full detail in [STARTUP-OS-V1-ACCEPTANCE-CRITERIA.md](STARTUP-OS-V1-ACCEPTANCE-C
 1. ~~**Commit 0025 — Operations Scope Resolution.**~~ Done — the actual Commit 0025 was a broader cleanup and link audit that included narrowing the `docs/09-operations/` description to match reality.
 2. **Onboarding & Template Refresh.** Rewrite `CONTRIBUTING.md` against the actual current workflow; cross-link `.github/` templates to `tasks/NEXT.md`.
 3. **A real second-repository adoption attempt** (even a minimal one) — the single most valuable test of whether this is actually reusable, as opposed to internally consistent.
+
+As of Commit 0028, this list is superseded by [STARTUP-OS-V1-NEXT-ROADMAP.md](STARTUP-OS-V1-NEXT-ROADMAP.md)'s fuller, ordered sequence — kept here unedited as the historical record of what this review originally recommended, per this document's own rule against retroactive rewriting.
 
 ## Guidance for Humans and AI Assistants
 

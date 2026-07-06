@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-06
-version: 1.2.0
+version: 1.3.0
 domain: foundation
 tags: [foundation, map, navigation, overview]
 dependencies: [DOC-FND-002]
-related: [DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-028, DOC-FND-029]
+related: [DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-028, DOC-FND-029, DOC-FND-037]
 ---
 
 # Startup OS Map
@@ -38,6 +38,8 @@ A high-level map of every Startup OS domain: what each one owns, and when to rea
 | 99 | `docs/99-archive/` | Archive | Retired and superseded material, preserved and clearly marked | [README.md](../99-archive/README.md) |
 
 Also relevant, outside `docs/`: [`tasks/`](../../tasks/README.md) (AI task handoff), [`prompts/`](../../prompts/README.md) (reusable AI prompts), [`.github/ISSUE_TEMPLATE/`](../../.github/ISSUE_TEMPLATE/bug-report.md) and [`.github/PULL_REQUEST_TEMPLATE/`](../../.github/PULL_REQUEST_TEMPLATE/pull_request_template.md) (issue/PR templates).
+
+For a literal file-count manifest of what's in each domain right now, rather than what each domain owns, see [STARTUP-OS-V1-DOMAIN-INVENTORY.md](STARTUP-OS-V1-DOMAIN-INVENTORY.md).
 
 ## The Shape Behind the Numbers
 

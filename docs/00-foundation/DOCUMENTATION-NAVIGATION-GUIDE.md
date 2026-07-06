@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-06
-version: 1.4.0
+version: 1.5.0
 domain: foundation
 tags: [foundation, navigation, ai, guide]
 dependencies: [DOC-FND-013]
-related: [DOC-FND-014, DOC-AI-002, DOC-FND-018, DOC-FND-028, DOC-FND-032, DOC-AI-007]
+related: [DOC-FND-014, DOC-AI-002, DOC-FND-018, DOC-FND-028, DOC-FND-032, DOC-AI-007, DOC-FND-038]
 ---
 
 # Documentation Navigation Guide
@@ -45,6 +45,7 @@ Where to start, depending on what you're trying to do — for humans and AI assi
 | Cross-link a new document correctly | [CROSS-LINKING-STANDARD.md](CROSS-LINKING-STANDARD.md) |
 | Check whether Startup OS is ready for a v1 release | [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) |
 | Get practical guidance on using ChatGPT, Claude Code, or Cursor for this work | [AI-USAGE-PLAYBOOKS.md](../04-ai/AI-USAGE-PLAYBOOKS.md) |
+| Find the right starting guide after the v1 buildout | [STARTUP-OS-V1-USAGE-GUIDE.md](STARTUP-OS-V1-USAGE-GUIDE.md) |
 
 ## Rules That Apply No Matter Where You Start
 
