@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: sales
 tags: [sales, proposals, pricing, standard]
 dependencies: [DOC-SLS-006]
-related: [DOC-SLS-008, DOC-SLS-010]
+related: [DOC-SLS-008, DOC-SLS-010, DOC-SEC-010]
 ---
 
 # Proposals and Pricing
@@ -42,7 +42,7 @@ An exception (unusual discount, custom terms, a commitment outside standard pack
 
 ## Technical and Feasibility Assumptions
 
-A proposal that depends on an integration, a technical capability, or an implementation timeline is confirmed with engineering before it's sent — proposing a technical commitment sales can't actually verify is how a signed deal turns into an implementation crisis.
+A proposal that depends on an integration, a technical capability, or an implementation timeline is confirmed with engineering before it's sent — proposing a technical commitment sales can't actually verify is how a signed deal turns into an implementation crisis. A proposal containing a security, compliance, or data-handling commitment follows [TRUST-COMMUNICATIONS-AND-CLAIMS.md](../14-security-compliance/TRUST-COMMUNICATIONS-AND-CLAIMS.md) — never stated to win the deal unless it's actually verified and approved.
 
 ## Required Artifacts
 

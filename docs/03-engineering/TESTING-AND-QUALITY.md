@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: engineering
 tags: [engineering, testing, quality, standard]
 dependencies: [DOC-ENG-003, DOC-PRD-007]
-related: [DOC-ENG-007, DOC-AI-006]
+related: [DOC-ENG-007, DOC-AI-006, DOC-SEC-006]
 ---
 
 # Testing and Quality
@@ -18,7 +18,7 @@ Defines testing expectations, quality gates, regression prevention, test ownersh
 
 ## What Gets Tested
 
-Every acceptance criterion in the governing PRD/story has a corresponding test, automated wherever feasible (see [ACCEPTANCE-CRITERIA-STANDARD.md](../02-product/ACCEPTANCE-CRITERIA-STANDARD.md)). This includes the negative and edge cases the story documents, not just the happy path.
+Every acceptance criterion in the governing PRD/story has a corresponding test, automated wherever feasible (see [ACCEPTANCE-CRITERIA-STANDARD.md](../02-product/ACCEPTANCE-CRITERIA-STANDARD.md)). This includes the negative and edge cases the story documents, not just the happy path — and, for security-sensitive work, the security-relevant test cases [SECURE-SDLC.md](../14-security-compliance/SECURE-SDLC.md) calls for.
 
 ## Quality Gates
 

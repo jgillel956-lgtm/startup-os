@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: engineering
 tags: [engineering, branching, code-review, standard]
 dependencies: [DOC-FND-008, DOC-ENG-002]
-related: [DOC-FND-010, DOC-ENG-008, DOC-AI-006]
+related: [DOC-FND-010, DOC-ENG-008, DOC-AI-006, DOC-SEC-006]
 ---
 
 # Branching and Code Review
@@ -29,7 +29,7 @@ Specializes [GIT-WORKFLOW.md](../00-foundation/GIT-WORKFLOW.md)'s general branch
 
 ## Review Standards
 
-A reviewer checks, at minimum, the categories in [AI-CODE-REVIEW-CHECKLIST.md](../04-ai/AI-CODE-REVIEW-CHECKLIST.md) — that checklist applies to all code, not only AI-generated code. Specifically for review:
+A reviewer checks, at minimum, the categories in [AI-CODE-REVIEW-CHECKLIST.md](../04-ai/AI-CODE-REVIEW-CHECKLIST.md) — that checklist applies to all code, not only AI-generated code — and the security-relevant stages defined in [SECURE-SDLC.md](../14-security-compliance/SECURE-SDLC.md). Specifically for review:
 
 - **Correctness against the spec** — does this satisfy the PRD's acceptance criteria, not just "does it look reasonable."
 - **Standards compliance** — [REPOSITORY-STANDARDS.md](REPOSITORY-STANDARDS.md), naming, structure.

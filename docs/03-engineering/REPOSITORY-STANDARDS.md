@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: engineering
 tags: [engineering, repository, standard, secrets]
 dependencies: [DOC-ENG-002]
-related: [DOC-FND-002, DOC-FND-003, DOC-ENG-007]
+related: [DOC-FND-002, DOC-FND-003, DOC-ENG-007, DOC-SEC-004, DOC-SEC-005]
 ---
 
 # Repository Standards
@@ -43,7 +43,7 @@ Defines standards for how an implementation repository (a company's actual codeb
 - **Never committed.** Not in code, not in config files, not in test fixtures, not in commit messages.
 - Local secrets live in an ignored file (e.g. `.env`, excluded via `.gitignore`); a `.env.example` (no real values) documents what's expected.
 - A secret that lands in history is rotated immediately, not just removed going forward.
-- This applies with extra force to any repository touching payments, personal data, or financial accounts — leaking those secrets isn't just a security bug, it's a compliance incident.
+- This applies with extra force to any repository touching payments, personal data, or financial accounts — leaking those secrets isn't just a security bug, it's a compliance incident (see [DATA-PROTECTION.md](../14-security-compliance/DATA-PROTECTION.md), [ACCESS-CONTROL.md](../14-security-compliance/ACCESS-CONTROL.md)).
 
 ## Local Setup
 

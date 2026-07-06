@@ -5,7 +5,7 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.3.0
+version: 1.4.0
 domain: foundation
 tags: [foundation, ids, identifiers]
 dependencies: []
@@ -63,6 +63,7 @@ Used where a type spans domains (chiefly `DOC` and `TPL`):
 | `INV` | Investors |
 | `OPS` | Operations |
 | `CS`  | Customer Success |
+| `SEC` | Security & Compliance |
 | `PAT` | Patterns |
 | `KNW` | Knowledge |
 | `GH`  | GitHub process templates (`.github/`) |

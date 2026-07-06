@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: customer-success
 tags: [customer-success, health, standard]
 dependencies: [DOC-CS-005]
-related: [DOC-CS-007, DOC-CS-011, DOC-OPS-011]
+related: [DOC-CS-007, DOC-CS-011, DOC-OPS-011, DOC-SEC-011]
 ---
 
 # Customer Health
@@ -25,6 +25,7 @@ Defines customer health signals, risk indicators, health scoring principles, acc
 | Stakeholder engagement | Whether the key contact(s) are still responsive and engaged (see [RELATIONSHIP-MANAGEMENT.md](RELATIONSHIP-MANAGEMENT.md)) |
 | Outcome progress | Whether the customer is progressing toward the success criteria they defined (see [CUSTOMER-OUTCOMES.md](CUSTOMER-OUTCOMES.md)) |
 | Commercial signals | Payment friction, renewal date approaching without engagement, unaddressed pricing/value concerns |
+| Trust/security signals | A security incident affecting this account ([SECURITY-INCIDENT-RESPONSE.md](../14-security-compliance/SECURITY-INCIDENT-RESPONSE.md)) or an unresolved trust concern |
 
 ## Risk Indicators
 
