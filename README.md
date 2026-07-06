@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-06
-version: 1.22.0
+version: 1.23.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028, DOC-FND-032]
 ---
 
 # Startup OS
@@ -50,6 +50,7 @@ Startup OS now spans sixteen domains. Three documents in `docs/00-foundation/` e
 - [DOMAIN-INTERACTION-MAP.md](docs/00-foundation/DOMAIN-INTERACTION-MAP.md) — how domains connect across real workflows (idea to product, close to onboarding, incident to communication, and more)
 - [DOCUMENTATION-NAVIGATION-GUIDE.md](docs/00-foundation/DOCUMENTATION-NAVIGATION-GUIDE.md) — where to start for a specific task, human or AI
 - [STARTUP-OS-ADOPTION-GUIDE.md](docs/00-foundation/STARTUP-OS-ADOPTION-GUIDE.md) — how to adopt this incrementally instead of standing up all sixteen domains at once
+- [EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md](docs/00-foundation/EXAMPLE-COMPANY-IMPLEMENTATION-GUIDE.md) — a concrete, step-by-step first pass through Startup OS for a brand-new company, with a companion [setup checklist](docs/00-foundation/NEW-COMPANY-SETUP-CHECKLIST.md), [implementation paths by company type](docs/00-foundation/STARTUP-OS-IMPLEMENTATION-PATHS.md), and [minimum operating package](docs/00-foundation/COMPANY-OPERATING-PACKAGE.md)
 
 ## Is This a v1 Foundation Yet?
 
