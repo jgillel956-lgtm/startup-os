@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: foundation
 tags: [foundation, map, navigation, overview]
 dependencies: [DOC-FND-002]
-related: [DOC-FND-014, DOC-FND-015, DOC-FND-016]
+related: [DOC-FND-014, DOC-FND-015, DOC-FND-016, DOC-FND-028]
 ---
 
 # Startup OS Map
@@ -51,6 +51,10 @@ Domains 00–09 and 13–14 are **operating-system domains** — each owns a sli
 - **Need a finding or fact that isn't a rule?** → [`docs/12-knowledge/`](../12-knowledge/README.md).
 - **Need to understand why something is the way it is, historically?** → [`docs/99-archive/`](../99-archive/README.md).
 - **Not sure which of the above?** → [DOCUMENTATION-NAVIGATION-GUIDE.md](DOCUMENTATION-NAVIGATION-GUIDE.md).
+
+## Is This Map Itself Complete?
+
+Not entirely — see [STARTUP-OS-V1-READINESS-REVIEW.md](STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit. `docs/09-operations/`'s description above ("Finance, HR, tooling, internal processes") currently overstates what's actually built there; that gap is tracked, not hidden.
 
 ## Avoiding Duplication
 
