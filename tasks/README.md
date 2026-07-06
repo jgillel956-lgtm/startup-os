@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [tasks, handoff, workflow]
 dependencies: [DOC-FND-011]
-related: [DOC-FND-011, DOC-TPL-012]
+related: [DOC-FND-011, DOC-TPL-012, DOC-FND-018]
 ---
 
 # Tasks
@@ -51,3 +51,5 @@ See [`NEXT.md`](NEXT.md) for the current template with these sections filled in 
 ## Validation
 
 Files in `tasks/` are operational handoff content, not governed Startup OS documents — they are exempt from the front-matter validation in [`scripts/validate-front-matter.js`](../scripts/validate-front-matter.js) (see [VALIDATION.md](../docs/00-foundation/VALIDATION.md)). This file itself carries front matter anyway, since it's a permanent explanation of the system rather than disposable task content.
+
+The documents a task actually creates or updates are not exempt — before committing task output, check it against [DOCUMENTATION-VALIDATION-CHECKLIST.md](../docs/00-foundation/DOCUMENTATION-VALIDATION-CHECKLIST.md).
