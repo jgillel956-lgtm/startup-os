@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.9.0
+version: 1.10.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011]
 ---
 
 # Startup OS
@@ -67,6 +67,7 @@ startup-os/
 ├── templates/             ← Non-document templates (configs, scaffolds)
 ├── scripts/               ← Automation scripts
 ├── assets/                ← Images, diagrams, shared assets
+├── tasks/                 ← Active AI task handoff file and completed history
 └── .github/               ← Issue and PR templates
 ```
 
@@ -152,6 +153,13 @@ How changes move through issues and pull requests is documented in:
 
 - [docs/00-foundation/GITHUB-WORKFLOW.md](docs/00-foundation/GITHUB-WORKFLOW.md) — issues, PRs, ADRs, and their templates
 - [docs/00-foundation/GIT-WORKFLOW.md](docs/00-foundation/GIT-WORKFLOW.md) — branching, commits, and review
+
+## AI Task Handoff Workflow
+
+How planning and coding AI agents coordinate through the repository itself, instead of the user copying prompts back and forth:
+
+- [docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md](docs/00-foundation/AI-TASK-HANDOFF-WORKFLOW.md) — roles, standard workflow, guardrails, troubleshooting
+- [tasks/README.md](tasks/README.md) — what the `tasks/` folder is and how to use `tasks/NEXT.md`
 
 ## Documentation-Before-Development Rule
 

@@ -4,12 +4,12 @@ title: Foundation — Overview
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.2.0
+updated: 2026-07-05
+version: 1.3.0
 domain: foundation
 tags: [foundation, standards, overview]
 dependencies: []
-related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010]
+related: [DOC-FND-002, DOC-FND-003, DOC-FND-004, DOC-FND-005, DOC-FND-006, DOC-FND-007, DOC-FND-008, DOC-FND-009, DOC-FND-010, DOC-FND-011]
 ---
 
 # Foundation
@@ -29,6 +29,7 @@ The foundation domain defines the standards that govern every document, file, an
 | [GIT-WORKFLOW.md](GIT-WORKFLOW.md) | Branching, commits, and pull requests |
 | [VALIDATION.md](VALIDATION.md) | Automated front matter validation (`npm run validate`) |
 | [GITHUB-WORKFLOW.md](GITHUB-WORKFLOW.md) | GitHub issues, pull requests, and their templates |
+| [AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md) | Repository-based task handoff between planning and coding AI agents |
 
 ## Reading Order
 

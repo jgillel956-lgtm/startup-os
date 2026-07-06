@@ -16,6 +16,7 @@ const IGNORED_DIRS = new Set([
   'build',
   'coverage',
   'vendor',
+  'tasks', // operational AI handoff files, not governed Startup OS documents
 ]);
 
 const REQUIRED_FIELDS = [
