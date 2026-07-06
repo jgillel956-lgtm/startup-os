@@ -4,12 +4,12 @@ title: Validation
 status: active
 owner: Founder
 created: 2026-07-04
-updated: 2026-07-04
-version: 1.0.0
+updated: 2026-07-05
+version: 1.1.0
 domain: foundation
 tags: [foundation, validation, metadata, tooling]
 dependencies: [DOC-FND-004, DOC-FND-007]
-related: [DOC-FND-001]
+related: [DOC-FND-001, DOC-FND-011]
 ---
 
 # Validation
@@ -37,7 +37,7 @@ Exit code `0` means every Markdown file passed. Exit code `1` means at least one
 
 ## What It Checks
 
-[`scripts/validate-front-matter.js`](../../scripts/validate-front-matter.js) recursively scans the repository for `.md` files, skipping `node_modules`, `.git`, `dist`, `build`, `coverage`, and `vendor`. `docs/99-archive/` **is** validated — the status standard does not exempt archived documents from carrying valid front matter (see [STATUS-STANDARD.md](STATUS-STANDARD.md)).
+[`scripts/validate-front-matter.js`](../../scripts/validate-front-matter.js) recursively scans the repository for `.md` files, skipping `node_modules`, `.git`, `dist`, `build`, `coverage`, `vendor`, and `tasks` (operational AI handoff files, not governed documents — see [AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md)). `docs/99-archive/` **is** validated — the status standard does not exempt archived documents from carrying valid front matter (see [STATUS-STANDARD.md](STATUS-STANDARD.md)).
 
 For each file, it checks:
 

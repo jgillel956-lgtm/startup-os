@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-05
-version: 1.1.0
+version: 1.3.0
 domain: foundation
 tags: [foundation, structure, folders]
 dependencies: [DOC-FND-003]
-related: [DOC-FND-001, DOC-OPS-001]
+related: [DOC-FND-001, DOC-OPS-001, DOC-FND-011, DOC-CS-001]
 ---
 
 # Folder Structure Standard
@@ -31,6 +31,7 @@ Defines the canonical layout of a Startup OS repository. Implementations (compan
 ├── templates/         # Non-document templates (configs, scaffolds)
 ├── scripts/           # Automation scripts
 ├── assets/            # Images, diagrams, shared media
+├── tasks/             # Active AI task handoff file and completed history
 └── .github/           # Issue and PR templates, workflows
 ```
 
@@ -53,6 +54,7 @@ Domains are numbered for stable ordering. Numbers never change meaning; new doma
 | `docs/10-templates/` | Templates | Copy-and-fill document templates |
 | `docs/11-patterns/` | Patterns | Reusable solutions, playbooks, recipes |
 | `docs/12-knowledge/` | Knowledge | Research notes, learnings, external knowledge |
+| `docs/13-customer-success/` | Customer Success | Onboarding, adoption, account health, renewals, expansion, churn prevention |
 | `docs/99-archive/` | Archive | Superseded documents (status `archived`) |
 
 ## Placement Rules
@@ -70,4 +72,5 @@ Domains are numbered for stable ordering. Numbers never change meaning; new doma
 - `templates/` — machine templates (config scaffolds, boilerplate) that are not Markdown documents.
 - `scripts/` — automation; each script has a header comment stating purpose and usage.
 - `assets/` — referenced media; organized by domain subfolder when volume grows.
+- `tasks/` — the active AI task handoff file (`NEXT.md`) and a `completed/` history; see [AI-TASK-HANDOFF-WORKFLOW.md](AI-TASK-HANDOFF-WORKFLOW.md). Exempt from front-matter validation — operational, not governed documentation.
 - `.github/ISSUE_TEMPLATE/`, `.github/PULL_REQUEST_TEMPLATE/` — GitHub process templates.

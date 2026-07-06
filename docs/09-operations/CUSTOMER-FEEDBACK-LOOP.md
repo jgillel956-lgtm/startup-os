@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-05
-version: 1.0.0
+version: 1.1.0
 domain: operations
 tags: [operations, feedback, product-input, standard]
 dependencies: [DOC-OPS-004]
-related: [DOC-PRD-008, DOC-PRD-003, DOC-ENG-011]
+related: [DOC-PRD-008, DOC-PRD-003, DOC-ENG-011, DOC-CS-006, DOC-CS-011]
 ---
 
 # Customer Feedback Loop
@@ -41,9 +41,13 @@ Defines how customer issues, support themes, repeated questions, defects, enhanc
 
 When product or engineering acts on fed-back signal, support is told what changed — otherwise support keeps giving customers the old answer, or keeps escalating an issue that's already been fixed. A feedback loop that only flows one direction isn't a loop.
 
+## Relationship to Customer Success
+
+For an active, paying account, support ticket themes are one input to that account's [health signal](../13-customer-success/CUSTOMER-HEALTH.md) — a rising ticket volume or frustrated tone on a specific account is shared with customer success, not just aggregated anonymously into a general theme. Account-specific risk and general product/support themes are both real signals; they route differently (one account, one owner vs. an aggregated theme to product).
+
 ## Ownership
 
-Support owns surfacing and summarizing signal. Product and engineering own deciding what to do with it — support does not unilaterally reprioritize the roadmap because a customer was persistent; it makes sure the signal is heard through the standard prioritization process.
+Support owns surfacing and summarizing signal. Product and engineering own deciding what to do with it — support does not unilaterally reprioritize the roadmap because a customer was persistent; it makes sure the signal is heard through the standard prioritization process. Customer success owns acting on account-specific risk signal (see [CHURN-AND-SAVE-PLAYS.md](../13-customer-success/CHURN-AND-SAVE-PLAYS.md)).
 
 ## Anti-Patterns
 
