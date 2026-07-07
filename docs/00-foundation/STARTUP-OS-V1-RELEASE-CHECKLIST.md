@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-05
 updated: 2026-07-06
-version: 1.1.0
+version: 1.2.0
 domain: foundation
 tags: [foundation, checklist, v1, release]
 dependencies: [DOC-FND-030]
-related: [DOC-FND-028, DOC-FND-029]
+related: [DOC-FND-028, DOC-FND-029, DOC-FND-036]
 ---
 
 # Startup OS v1 Release Checklist
@@ -40,7 +40,7 @@ Re-run `npm run validate` and repeat the manual ID-uniqueness and scope-descript
 ## If All Items Pass
 
 1. Tag the repository per [GIT-WORKFLOW.md](GIT-WORKFLOW.md)'s tagging convention (`v1.0.0`).
-2. Write release notes per [RELEASE-NOTES-STANDARD.md](RELEASE-NOTES-STANDARD.md), summarizing what the v1 foundation actually contains.
+2. Finalize [STARTUP-OS-V1-RELEASE-NOTES.md](STARTUP-OS-V1-RELEASE-NOTES.md) — move its `status` from `draft` to `active`, reset its version to `1.0.0`, and confirm every item in it is still accurate against the repository at tag time, per [RELEASE-NOTES-STANDARD.md](RELEASE-NOTES-STANDARD.md).
 3. Update [README.md](../../README.md) and [STARTUP-OS-MAP.md](STARTUP-OS-MAP.md) to reflect the tagged state.
 
 ## Ownership

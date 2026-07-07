@@ -5,11 +5,11 @@ status: active
 owner: Founder
 created: 2026-07-04
 updated: 2026-07-06
-version: 1.24.0
+version: 1.25.0
 domain: root
 tags: [readme, overview, foundation]
 dependencies: []
-related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028, DOC-FND-032, DOC-AI-007]
+related: [DOC-ROOT-002, DOC-ROOT-003, DOC-FND-001, DOC-AI-001, DOC-FND-009, DOC-FND-010, DOC-PRD-001, DOC-ENG-001, DOC-OPS-001, DOC-DSG-001, DOC-MKT-001, DOC-SLS-001, DOC-FND-011, DOC-CS-001, DOC-SEC-001, DOC-INV-001, DOC-BIZ-001, DOC-TPL-001, DOC-PAT-001, DOC-KNW-001, DOC-ARCH-001, DOC-FND-013, DOC-FND-021, DOC-FND-028, DOC-FND-032, DOC-AI-007, DOC-FND-036]
 ---
 
 # Startup OS
@@ -54,7 +54,7 @@ Startup OS now spans sixteen domains. Three documents in `docs/00-foundation/` e
 
 ## Is This a v1 Foundation Yet?
 
-Not yet — see [docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md](docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit against explicit acceptance criteria, the specific gaps found, and what's actually blocking a v1 declaration. The structure below is complete and validated; stale onboarding documentation and the lack of a real second-repository adoption test remain open.
+Not yet — see [docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md](docs/00-foundation/STARTUP-OS-V1-READINESS-REVIEW.md) for an honest audit against explicit acceptance criteria, the specific gaps found, and what's actually blocking a v1 declaration. The structure below is complete and validated; stale onboarding documentation and the lack of a real second-repository adoption test remain open. A draft of what the eventual release will say — what's included, how domains are organized, how to start using it, and what comes after — lives in [docs/00-foundation/STARTUP-OS-V1-RELEASE-NOTES.md](docs/00-foundation/STARTUP-OS-V1-RELEASE-NOTES.md); it stays a draft until the remaining gaps close.
 
 ## Repository Structure
 
